@@ -45,7 +45,7 @@ class HomeViewController: UIViewController {
         }
         
         tabBarController.tabBar.tintColor = styleUtil.setRGBColor(red: 146, green: 169, blue: 189, alpha: 1)
-        tabBarController.tabBar.backgroundColor = styleUtil.setRGBColor(red: 211, green: 222, blue: 220, alpha: 1) 
+        tabBarController.tabBar.backgroundColor = styleUtil.setRGBColor(red: 211, green: 222, blue: 220, alpha: 1)
         tabBarController.modalPresentationStyle = .fullScreen
         
         present(tabBarController,animated:true)

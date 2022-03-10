@@ -12,15 +12,23 @@ class MainViewController: UIViewController {
     
     var locationManager : CLLocationManager!
     
+    //Buttons[]
+    @IBOutlet weak var askHelpButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.locationManager = CLLocationManager()
         askUserAuthorizationToLocate(locationManager: self.locationManager)
+        
+        self.askHelpButton.setTitle(languageUtil.getTranslatedText(translationString: "main.ask_for_help"), for: .normal)
     }
 
-
+    @IBAction func handleHelp(_ sender: Any) {
+        self.present(ModalViewController(), animated: true)
+    }
+    
 }
 
 func askUserAuthorizationToLocate(locationManager : CLLocationManager) {

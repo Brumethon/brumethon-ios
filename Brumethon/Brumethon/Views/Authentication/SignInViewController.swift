@@ -31,7 +31,7 @@ class SignInViewController: UIViewController {
         
         
         //Set right title on button
-        self.signInButton.setTitle(languageUtil.getTranslatedText(translationString: "sign_in.signin"), for: .normal)
+        self.signInButton.setTitle(languageUtil.getTranslatedText(translationString: "sign_in.sign_in"), for: .normal)
     }
     
     @IBAction func handleSignIn(_ sender: Any) {
@@ -41,7 +41,7 @@ class SignInViewController: UIViewController {
         
         guard loginValue.count > 0 else {
             
-            let errorAlert = UIAlertController(title : languageUtil.getTranslatedText(translationString: "error") ,message : languageUtil.getTranslatedText(translationString: "username_count"), preferredStyle: .alert)
+            let errorAlert = UIAlertController(title : languageUtil.getTranslatedText(translationString: "error") ,message : languageUtil.getTranslatedText(translationString: "error.username_count"), preferredStyle: .alert)
             
             self.present(errorAlert,animated: true) {
                 Timer.scheduledTimer(withTimeInterval: 1, repeats: false){ (_) in
@@ -53,7 +53,7 @@ class SignInViewController: UIViewController {
         }
         
         guard passwordValue.count > 0 else {
-            let errorAlert = UIAlertController(title : languageUtil.getTranslatedText(translationString: "error") ,message : languageUtil.getTranslatedText(translationString: "password_count"), preferredStyle: .alert)
+            let errorAlert = UIAlertController(title : languageUtil.getTranslatedText(translationString: "error") ,message : languageUtil.getTranslatedText(translationString: "error.password_count"), preferredStyle: .alert)
             
             self.present(errorAlert,animated: true) {
                 Timer.scheduledTimer(withTimeInterval: 1, repeats: false){ (_) in

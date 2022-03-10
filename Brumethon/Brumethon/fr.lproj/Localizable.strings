@@ -15,9 +15,14 @@
 "profile"  = "Profil";
 
 //-------------------- SIGN IN --------------------//
-"sign_in.signin" = "Se connecter";
+"sign_in.sign_in" = "Se connecter";
+
+//-------------------- HOME --------------------//
+
+//-------------------- MAIN --------------------//
+"main.ask_for_help" = "Demander de l'aide";
 
 //-------------------- ERRORS --------------------//
-"username_count" = "Le nom d'utilisateur ne peut pas être vide.";
-"password_count" = "Le mot de passe ne peut pas être vide.";
+"error.username_count" = "Le nom d'utilisateur ne peut pas être vide.";
+"error.password_count" = "Le mot de passe ne peut pas être vide.";
 

@@ -8,9 +8,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Brumethon" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModalViewController" customModule="Brumethon" customModuleProvider="target">
             <connections>
-                <outlet property="askHelpButton" destination="9Pf-5d-9kQ" id="ne5-hl-wQX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,23 +17,8 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Pf-5d-9kQ">
-                    <rect key="frame" x="100" y="791" width="214" height="31"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                    <connections>
-                        <action selector="handleHelp:" destination="-1" eventType="touchUpInside" id="fVm-eg-Nl2"/>
-                    </connections>
-                </button>
-            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.48627450980392156" green="0.59999999999999998" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9Pf-5d-9kQ" secondAttribute="trailing" constant="100" id="S7j-a2-g30"/>
-                <constraint firstItem="9Pf-5d-9kQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="iCa-Yr-Lk1"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9Pf-5d-9kQ" secondAttribute="bottom" constant="40" id="qu1-to-BN3"/>
-            </constraints>
             <point key="canvasLocation" x="139" y="151"/>
         </view>
     </objects>

@@ -16,8 +16,13 @@
 
 
 //-------------------- SIGN IN --------------------//
-"sign_in.signin" = "Sign in";
+"sign_in.sign_in" = "Sign in";
+
+//-------------------- HOME --------------------//
+
+//-------------------- MAIN --------------------//
+"main.ask_for_help" = "Ask for help";
 
 //-------------------- ERRORS --------------------//
-"username_count" = "Username can't be empty.";
-"password_count" = "Password can't be empty.";
+"error.username_count" = "Username can't be empty.";
+"error.password_count" = "Password can't be empty.";
