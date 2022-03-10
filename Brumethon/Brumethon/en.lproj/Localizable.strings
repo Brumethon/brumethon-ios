@@ -35,6 +35,8 @@
 "sign_up.already_have_acc" = "Already member? Sign in!";
 "sign_up.next_step"         = "Next step %@";
 "sign_up.create_account"         = "Create account";
+"sign_up.what_can_you_do"         = "What can you do?";
+"sign_up.lets_go"   = "Let's go!";
 
 //-------------------- HOME --------------------//
 

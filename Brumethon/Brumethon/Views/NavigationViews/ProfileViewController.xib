@@ -41,8 +41,8 @@
                     <color key="textColor" name="Primary Color"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kfQ-AX-DHB" customClass="TagListView" customModule="TagListView">
-                    <rect key="frame" x="30" y="294" width="354" height="128"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfQ-AX-DHB" customClass="TagListView" customModule="TagListView">
+                    <rect key="frame" x="30" y="284" width="354" height="16"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="marginY">
                             <real key="value" value="15"/>
@@ -69,6 +69,11 @@
             <point key="canvasLocation" x="139" y="151"/>
         </view>
     </objects>
+    <designables>
+        <designable name="kfQ-AX-DHB">
+            <size key="intrinsicContentSize" width="354" height="16"/>
+        </designable>
+    </designables>
     <resources>
         <namedColor name="Primary Color">
             <color red="0.48600000143051147" green="0.60000002384185791" blue="0.67500001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

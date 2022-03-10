@@ -12,7 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpAddressViewController" customModule="Brumethon" customModuleProvider="target">
             <connections>
                 <outlet property="addressHeader" destination="puy-dm-6wt" id="PWj-LS-XqO"/>
-                <outlet property="addressNumber" destination="hac-30-k2Q" id="QAk-61-tMG"/>
+                <outlet property="addressNumberTextField" destination="hac-30-k2Q" id="QAk-61-tMG"/>
                 <outlet property="cityTextField" destination="VDI-ZD-vT6" id="0lP-Bo-2wl"/>
                 <outlet property="nextStepButton" destination="J96-8t-npS" id="lZH-K0-WJK"/>
                 <outlet property="streetNameTextField" destination="wFf-jh-eZl" id="Buv-Rc-p4I"/>

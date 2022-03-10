@@ -9,9 +9,18 @@ import UIKit
 
 class SignUpAddressViewController: UIViewController, UITextFieldDelegate {
     
+    var firstName: String?
+    var lastName: String?
+    var phoneNumber: String?
+    var scooterId: String?
+    var addressNumber: String?
+    var street: String?
+    var zipCode: String?
+    var city: String?
+    
     @IBOutlet weak var addressHeader: UILabel!
     
-    @IBOutlet weak var addressNumber: UITextField!
+    @IBOutlet weak var addressNumberTextField: UITextField!
     @IBOutlet weak var streetNameTextField: UITextField!
     @IBOutlet weak var cityTextField: UITextField!
     @IBOutlet weak var zipCodeTextField: UITextField!
@@ -19,14 +28,24 @@ class SignUpAddressViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var nextStepButton: UIButton!
     
     @IBAction func handleNextStep(_ sender: Any) {
-        if addressNumber.text!.isEmpty || streetNameTextField.text!.isEmpty || cityTextField.text!.isEmpty || zipCodeTextField.text!.isEmpty  {
+        if addressNumberTextField.text!.isEmpty || streetNameTextField.text!.isEmpty || cityTextField.text!.isEmpty || zipCodeTextField.text!.isEmpty  {
             let errorDialog = UIAlertController(title: "", message: languageUtil.getTranslatedText(translationString: "error.missing_field"), preferredStyle: .alert)
             self.present(errorDialog, animated: true, completion: nil)
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 self.dismiss(animated: true, completion: nil)
             }
         } else {
-            self.navigationController?.pushViewController(SignUpLoginInfosViewController(), animated: true)
+            let vc = SignUpLoginInfosViewController()
+            vc.firstName = firstName ?? ""
+            vc.lastName = lastName ?? ""
+            vc.phoneNumber = phoneNumber ?? ""
+            vc.scooterId = scooterId ?? ""
+            vc.addressNumber = addressNumberTextField.text
+            vc.street = streetNameTextField.text
+            vc.zipCode = zipCodeTextField.text
+            vc.city = cityTextField.text
+            self.navigationController?.pushViewController(vc, animated: true)
+            
         }
     }
     
@@ -34,16 +53,16 @@ class SignUpAddressViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = true
         
-        self.addressNumber.delegate = self
+        self.addressNumberTextField.delegate = self
         self.streetNameTextField.delegate = self
         self.cityTextField.delegate = self
         self.zipCodeTextField.delegate = self
-        self.addressNumber.tag = 0
+        self.addressNumberTextField.tag = 0
         self.streetNameTextField.tag = 1
         self.zipCodeTextField.tag = 2
         self.cityTextField.tag = 3
         
-        if addressNumber.text!.isEmpty || streetNameTextField.text!.isEmpty || cityTextField.text!.isEmpty || zipCodeTextField.text!.isEmpty {
+        if addressNumberTextField.text!.isEmpty || streetNameTextField.text!.isEmpty || cityTextField.text!.isEmpty || zipCodeTextField.text!.isEmpty {
                 nextStepButton.isEnabled = false
             }
         
@@ -51,7 +70,7 @@ class SignUpAddressViewController: UIViewController, UITextFieldDelegate {
         self.addressHeader.text = languageUtil.getTranslatedText(translationString: "address")
         
         //Set placeholders
-        self.addressNumber.placeholder = languageUtil.getTranslatedText(translationString: "number")
+        self.addressNumberTextField.placeholder = languageUtil.getTranslatedText(translationString: "number")
         self.streetNameTextField.placeholder = languageUtil.getTranslatedText(translationString: "street_name")
         self.cityTextField.placeholder = languageUtil.getTranslatedText(translationString: "city")
         self.zipCodeTextField.placeholder = languageUtil.getTranslatedText(translationString: "zip_code")

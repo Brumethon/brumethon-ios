@@ -8,7 +8,15 @@
 import UIKit
 
 class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
-
+    var firstName: String?
+    var lastName: String?
+    var phoneNumber: String?
+    var scooterId: String?
+    var addressNumber: String?
+    var street: String?
+    var zipCode: String?
+    var city: String?
+    
     @IBOutlet weak var signInInfosLabel: UILabel!
     
     @IBOutlet weak var emailTextField: UITextField!
@@ -24,7 +32,8 @@ class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 self.dismiss(animated: true, completion: nil)
             }
-            
+        } else {
+            self.navigationController?.pushViewController(SignUpChooseCategoriesViewController(), animated: true)
         }
     }
     

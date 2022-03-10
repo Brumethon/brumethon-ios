@@ -33,8 +33,9 @@
 //-------------------- SIGN UP INFORMATIONS --------------------//
 "sign_up.already_have_acc" = "Déja un compte ? Connectez-vous !";
 "sign_up.next_step"        = "Etape suivante %@";
-"sign_up.create_account"    = "Créer mon compte";
-
+"sign_up.create_account"   = "Créer mon compte";
+"sign_up.what_can_you_do"  = "Dans quoi pouvez-vous aider ?";
+"sign_up.lets_go"   = "C'est parti !";
 //-------------------- HOME --------------------//
 
 //-------------------- MAIN --------------------//

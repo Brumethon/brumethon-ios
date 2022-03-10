@@ -65,7 +65,12 @@ class SignUpInformationViewController: UIViewController, UITextFieldDelegate {
             }
 
         } else {
-            self.navigationController?.pushViewController(SignUpAddressViewController(), animated: true)
+            let vc = SignUpAddressViewController()
+            vc.firstName = firstNameTextField.text
+            vc.lastName = lastNameTextField.text
+            vc.phoneNumber = phoneTextField.text
+            vc.scooterId = scooterIdTextField.text
+            self.navigationController?.pushViewController(vc, animated: true)
         }
         
     }

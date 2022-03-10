@@ -77,7 +77,9 @@
                         <constraint firstAttribute="height" constant="50" id="o1f-Oc-7nA"/>
                     </constraints>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Button">
+                        <color key="baseBackgroundColor" name="AccentColor"/>
+                    </buttonConfiguration>
                     <connections>
                         <action selector="handleNextStepButton:" destination="-1" eventType="touchUpInside" id="K8j-K9-Wt5"/>
                     </connections>
@@ -113,6 +115,9 @@
     </objects>
     <resources>
         <image name="Image" width="1081.5" height="307"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="Secondary color">
             <color red="0.79199999570846558" green="0.94099998474121094" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
