@@ -24,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5C-Jf-dWQ">
-                    <rect key="frame" x="60" y="164" width="294" height="31"/>
+                    <rect key="frame" x="60" y="124" width="294" height="31"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" image="chevron.down" catalog="system" imagePlacement="trailing" title="Button" imagePadding="5">
@@ -35,7 +35,7 @@
                     </connections>
                 </button>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="svbsbssbs" translatesAutoresizingMaskIntoConstraints="NO" id="7Fh-jd-End">
-                    <rect key="frame" x="60" y="245" width="294" height="300"/>
+                    <rect key="frame" x="60" y="205" width="294" height="300"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="300" id="Ji8-pA-15q"/>
@@ -45,14 +45,14 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Uf6-Dh-hUS">
-                    <rect key="frame" x="60" y="595" width="294" height="32"/>
+                    <rect key="frame" x="60" y="555" width="294" height="32"/>
                     <segments>
                         <segment title="First"/>
                         <segment title="Second"/>
                     </segments>
                 </segmentedControl>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kkk-cI-N7p">
-                    <rect key="frame" x="132" y="731" width="150" height="31"/>
+                    <rect key="frame" x="132" y="636" width="150" height="31"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Demander de l'aide"/>
                     <connections>
@@ -70,9 +70,9 @@
                 <constraint firstItem="7Fh-jd-End" firstAttribute="top" secondItem="A5C-Jf-dWQ" secondAttribute="bottom" constant="50" id="QjJ-Ec-hhy"/>
                 <constraint firstItem="Uf6-Dh-hUS" firstAttribute="top" secondItem="7Fh-jd-End" secondAttribute="bottom" constant="50" id="bmc-oa-5VQ"/>
                 <constraint firstItem="7Fh-jd-End" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="hH4-ba-lGY"/>
-                <constraint firstItem="A5C-Jf-dWQ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="120" id="lA1-gE-Vl7"/>
+                <constraint firstItem="Kkk-cI-N7p" firstAttribute="top" secondItem="Uf6-Dh-hUS" secondAttribute="bottom" constant="50" id="jDq-ID-48H"/>
+                <constraint firstItem="A5C-Jf-dWQ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="lA1-gE-Vl7"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7Fh-jd-End" secondAttribute="trailing" constant="60" id="oVA-je-nKn"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kkk-cI-N7p" secondAttribute="bottom" constant="100" id="oaT-qh-jG9"/>
                 <constraint firstItem="Uf6-Dh-hUS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="xRH-AT-hOS"/>
             </constraints>
             <point key="canvasLocation" x="137.68115942028987" y="150.66964285714286"/>
