@@ -242,6 +242,7 @@
 		5748355E27D97B23001CE3A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE8483B427DA5CD30002C0BB /* Carousel */,
 				5748356727D98579001CE3A8 /* NavigationViews */,
 				5748355127D955E1001CE3A8 /* Authentication */,
 				5748356827D9EB5F001CE3A8 /* ModalViewController.swift */,
@@ -624,6 +625,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9A8EC927D9FE3A0007E32A /* NetworkLogger.swift in Sources */,
+				BE8483B627DA5CFC0002C0BB /* TicketCell.swift in Sources */,
 				BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */,
 				5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */,
 				5748356527D98571001CE3A8 /* MainViewController.swift in Sources */,
