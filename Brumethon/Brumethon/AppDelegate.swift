@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import DropDown
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,11 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let window = UIWindow(frame: UIScreen.main.bounds) //Taille window == taille écran
-        window.rootViewController = UINavigationController(rootViewController : SignInViewController())
+        window.rootViewController = UINavigationController(rootViewController : ModalViewController())
         window.makeKeyAndVisible()
         self.window = window
         
         return true
+    }
+    
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        DropDown.startListeningToKeyboard()
     }
 
 }

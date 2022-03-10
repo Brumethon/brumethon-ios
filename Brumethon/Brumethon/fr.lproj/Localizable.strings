@@ -13,6 +13,9 @@
 "error"    = "Erreur";
 "home"     = "Accueil";
 "profile"  = "Profil";
+"email"    = "E-mail";
+"categories" = "Catégories";
+"home_address" = "Domicile";
 
 //-------------------- SIGN IN --------------------//
 "sign_in.sign_in" = "Se connecter";
@@ -25,4 +28,8 @@
 //-------------------- ERRORS --------------------//
 "error.username_count" = "Le nom d'utilisateur ne peut pas être vide.";
 "error.password_count" = "Le mot de passe ne peut pas être vide.";
+"error.email_count"    = "L'e-mail ne peut pas être vide";
 
+//-------------------- MODAL --------------------//
+"modal.describe"      = "Décrivez votre problème.";
+"modal.current_pos"   = "Position actuelle";

@@ -20,7 +20,7 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
         
         //Set right placeholders on textfields
-        self.loginTextfield.placeholder = languageUtil.getTranslatedText(translationString: "username")
+        self.loginTextfield.placeholder = languageUtil.getTranslatedText(translationString: "email")
         self.passwordTextfield.placeholder = languageUtil.getTranslatedText(translationString: "password")
         
         self.loginTextfield.delegate    = self

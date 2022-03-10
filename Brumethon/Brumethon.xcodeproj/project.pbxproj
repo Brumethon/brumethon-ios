@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56C560E6953A4514DB799D72 /* Pods_Brumethon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */; };
 		5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748350D27D93A08001CE3A8 /* AppDelegate.swift */; };
 		5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5748351627D93A0A001CE3A8 /* Assets.xcassets */; };
 		5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748351827D93A0A001CE3A8 /* LaunchScreen.storyboard */; };
@@ -41,6 +42,8 @@
 		BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */; };
 		BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */; };
 		BE9A8EDE27DA047D0007E32A /* BecomeReferentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */; };
+		6DB8E99B285E8F506D024472 /* Pods_Brumethon_BrumethonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7453CDEB28E09B56B73706A6 /* Pods_Brumethon_BrumethonUITests.framework */; };
+		94217FEF366F422B5DC898FA /* Pods_BrumethonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F143D5E79CEFC158C154CE2 /* Pods-Brumethon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon.debug.xcconfig"; path = "Target Support Files/Pods-Brumethon/Pods-Brumethon.debug.xcconfig"; sourceTree = "<group>"; };
 		5748350A27D93A08001CE3A8 /* Brumethon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brumethon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5748350D27D93A08001CE3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5748351627D93A0A001CE3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +90,14 @@
 		5748356427D98571001CE3A8 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		5748356827D9EB5F001CE3A8 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		5748356927D9EB5F001CE3A8 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		5CD23BDCCED1BBB49AC8F837 /* Pods-Brumethon-BrumethonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon-BrumethonUITests.debug.xcconfig"; path = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C38A8810FD0AF98140FBF86 /* Pods-BrumethonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrumethonTests.release.xcconfig"; path = "Target Support Files/Pods-BrumethonTests/Pods-BrumethonTests.release.xcconfig"; sourceTree = "<group>"; };
+		7453CDEB28E09B56B73706A6 /* Pods_Brumethon_BrumethonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brumethon_BrumethonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CEC5074EBC64FF847F9F97 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon-BrumethonUITests.release.xcconfig"; path = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9784A74A393C12F41D862B1D /* Pods-Brumethon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon.release.xcconfig"; path = "Target Support Files/Pods-Brumethon/Pods-Brumethon.release.xcconfig"; sourceTree = "<group>"; };
+		AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrumethonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA04383FD441A07A80D7BF3 /* Pods-BrumethonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrumethonTests.debug.xcconfig"; path = "Target Support Files/Pods-BrumethonTests/Pods-BrumethonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brumethon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
@@ -107,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C560E6953A4514DB799D72 /* Pods_Brumethon.framework in Frameworks */,
 				BE9A8EBF27D9FBF60007E32A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94217FEF366F422B5DC898FA /* Pods_BrumethonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,12 +136,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB8E99B285E8F506D024472 /* Pods_Brumethon_BrumethonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025E5BDD33A7D3FB3B24EC82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F143D5E79CEFC158C154CE2 /* Pods-Brumethon.debug.xcconfig */,
+				9784A74A393C12F41D862B1D /* Pods-Brumethon.release.xcconfig */,
+				5CD23BDCCED1BBB49AC8F837 /* Pods-Brumethon-BrumethonUITests.debug.xcconfig */,
+				79CEC5074EBC64FF847F9F97 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */,
+				DCA04383FD441A07A80D7BF3 /* Pods-BrumethonTests.debug.xcconfig */,
+				6C38A8810FD0AF98140FBF86 /* Pods-BrumethonTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5748350127D93A08001CE3A8 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +165,8 @@
 				5748352327D93A0A001CE3A8 /* BrumethonTests */,
 				5748352D27D93A0A001CE3A8 /* BrumethonUITests */,
 				5748350B27D93A08001CE3A8 /* Products */,
+				025E5BDD33A7D3FB3B24EC82 /* Pods */,
+				6D4CE11BFE5BCF2D431D5EA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,6 +254,16 @@
 			path = NavigationViews;
 			sourceTree = "<group>";
 		};
+		6D4CE11BFE5BCF2D431D5EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */,
+				7453CDEB28E09B56B73706A6 /* Pods_Brumethon_BrumethonUITests.framework */,
+				AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE9A8EB827D9F28F0007E32A /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,9 +347,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5748353427D93A0A001CE3A8 /* Build configuration list for PBXNativeTarget "Brumethon" */;
 			buildPhases = (
+				48D748EEBBCF950A35AF414B /* [CP] Check Pods Manifest.lock */,
 				5748350627D93A08001CE3A8 /* Sources */,
 				5748350727D93A08001CE3A8 /* Frameworks */,
 				5748350827D93A08001CE3A8 /* Resources */,
+				11DC20366D6F3D11F07EF7D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,6 +369,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5748353727D93A0A001CE3A8 /* Build configuration list for PBXNativeTarget "BrumethonTests" */;
 			buildPhases = (
+				72DA6F0089853E096FAAFB93 /* [CP] Check Pods Manifest.lock */,
 				5748351C27D93A0A001CE3A8 /* Sources */,
 				5748351D27D93A0A001CE3A8 /* Frameworks */,
 				5748351E27D93A0A001CE3A8 /* Resources */,
@@ -344,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5748353A27D93A0A001CE3A8 /* Build configuration list for PBXNativeTarget "BrumethonUITests" */;
 			buildPhases = (
+				CDEE92144C89914300819CD2 /* [CP] Check Pods Manifest.lock */,
 				5748352627D93A0A001CE3A8 /* Sources */,
 				5748352727D93A0A001CE3A8 /* Frameworks */,
 				5748352827D93A0A001CE3A8 /* Resources */,
+				82FC68D8F9995465E77D85B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -436,6 +482,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11DC20366D6F3D11F07EF7D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brumethon/Pods-Brumethon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brumethon/Pods-Brumethon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brumethon/Pods-Brumethon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D748EEBBCF950A35AF414B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brumethon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72DA6F0089853E096FAAFB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrumethonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82FC68D8F9995465E77D85B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDEE92144C89914300819CD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brumethon-BrumethonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5748350627D93A08001CE3A8 /* Sources */ = {
@@ -641,6 +790,7 @@
 		};
 		5748353527D93A0A001CE3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F143D5E79CEFC158C154CE2 /* Pods-Brumethon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -672,6 +822,7 @@
 		};
 		5748353627D93A0A001CE3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9784A74A393C12F41D862B1D /* Pods-Brumethon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -703,6 +854,7 @@
 		};
 		5748353827D93A0A001CE3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA04383FD441A07A80D7BF3 /* Pods-BrumethonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -723,6 +875,7 @@
 		};
 		5748353927D93A0A001CE3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C38A8810FD0AF98140FBF86 /* Pods-BrumethonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -743,6 +896,7 @@
 		};
 		5748353B27D93A0A001CE3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD23BDCCED1BBB49AC8F837 /* Pods-Brumethon-BrumethonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -761,6 +915,7 @@
 		};
 		5748353C27D93A0A001CE3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CEC5074EBC64FF847F9F97 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

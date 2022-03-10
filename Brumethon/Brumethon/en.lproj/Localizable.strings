@@ -13,7 +13,9 @@
 "error"    = "Error";
 "home"     = "Home";
 "profile"  = "Profile";
-
+"email"    = "E-mail";
+"categories" = "Categories";
+"home_address" = "Home address";
 
 //-------------------- SIGN IN --------------------//
 "sign_in.sign_in" = "Sign in";
@@ -26,3 +28,8 @@
 //-------------------- ERRORS --------------------//
 "error.username_count" = "Username can't be empty.";
 "error.password_count" = "Password can't be empty.";
+"error.email_count"    = "E-mail can't be empty";
+
+//-------------------- MODAL --------------------//
+"modal.describe"      = "Describe your problem.";
+"modal.current_pos"   = "Current position";
