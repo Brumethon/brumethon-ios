@@ -20,18 +20,21 @@
 "lastname"     = "Lastname";
 "phone_number" = "Phone number";
 "scooter_id"   = "Scooter identifier";
-"address"      = "Address";
+"address"      = "Your address";
 "street_name"  = "Street name";
 "zip_code"     = "Zip code";
 "city"         = "City";
 "number"       = "Number";
 
 //-------------------- SIGN IN --------------------//
-"sign_in.sign_in" = "Sign in";
+"sign_in.sign_in" = "Sign-in";
+"sign_in.sign_in_infos" = "Sign-in informations";
+
 
 //-------------------- SIGN UP INFORMATIONS --------------------//
-"sign_up.already_have_acc" = "Already have an account ? Sign in !";
-"sign_up.next_step"         = "Next step";
+"sign_up.already_have_acc" = "Already member? Sign in!";
+"sign_up.next_step"         = "Next step %@";
+"sign_up.create_account"         = "Create account";
 
 //-------------------- HOME --------------------//
 
@@ -42,6 +45,7 @@
 "error.username_count" = "Username can't be empty.";
 "error.password_count" = "Password can't be empty.";
 "error.email_count"    = "E-mail can't be empty";
+"error.missing_field"  = "Please fill all the fields.";
 
 //-------------------- MODAL --------------------//
 "modal.describe"      = "Describe your problem.";

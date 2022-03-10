@@ -27,10 +27,12 @@
 		5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5748356927D9EB5F001CE3A8 /* ModalViewController.xib */; };
 		5772BF6627DA4EDF00084D94 /* SignUpInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772BF6427DA4EDF00084D94 /* SignUpInformationViewController.swift */; };
 		5772BF6727DA4EDF00084D94 /* SignUpInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5772BF6527DA4EDF00084D94 /* SignUpInformationViewController.xib */; };
-		5772BF6C27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772BF6A27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.swift */; };
-		5772BF6D27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5772BF6B27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.xib */; };
+		5772BF6C27DA587A00084D94 /* SignUpAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772BF6A27DA587A00084D94 /* SignUpAddressViewController.swift */; };
+		5772BF6D27DA587A00084D94 /* SignUpAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5772BF6B27DA587A00084D94 /* SignUpAddressViewController.xib */; };
 		6DB8E99B285E8F506D024472 /* Pods_Brumethon_BrumethonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7453CDEB28E09B56B73706A6 /* Pods_Brumethon_BrumethonUITests.framework */; };
 		94217FEF366F422B5DC898FA /* Pods_BrumethonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */; };
+		BE8483C527DA7D020002C0BB /* SignUpLoginInfosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483C327DA7D020002C0BB /* SignUpLoginInfosViewController.swift */; };
+		BE8483C627DA7D020002C0BB /* SignUpLoginInfosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */; };
 		BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB627D9F0D70007E32A /* Documentation.docc */; };
 		BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB927D9F3D90007E32A /* Service.swift */; };
 		BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EBB27D9F4080007E32A /* UserInfos.swift */; };
@@ -91,14 +93,16 @@
 		5748356927D9EB5F001CE3A8 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		5772BF6427DA4EDF00084D94 /* SignUpInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInformationViewController.swift; sourceTree = "<group>"; };
 		5772BF6527DA4EDF00084D94 /* SignUpInformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpInformationViewController.xib; sourceTree = "<group>"; };
-		5772BF6A27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCategoriesAndLocationViewController.swift; sourceTree = "<group>"; };
-		5772BF6B27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpCategoriesAndLocationViewController.xib; sourceTree = "<group>"; };
+		5772BF6A27DA587A00084D94 /* SignUpAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAddressViewController.swift; sourceTree = "<group>"; };
+		5772BF6B27DA587A00084D94 /* SignUpAddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpAddressViewController.xib; sourceTree = "<group>"; };
 		5CD23BDCCED1BBB49AC8F837 /* Pods-Brumethon-BrumethonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon-BrumethonUITests.debug.xcconfig"; path = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C38A8810FD0AF98140FBF86 /* Pods-BrumethonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrumethonTests.release.xcconfig"; path = "Target Support Files/Pods-BrumethonTests/Pods-BrumethonTests.release.xcconfig"; sourceTree = "<group>"; };
 		7453CDEB28E09B56B73706A6 /* Pods_Brumethon_BrumethonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brumethon_BrumethonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CEC5074EBC64FF847F9F97 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon-BrumethonUITests.release.xcconfig"; path = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9784A74A393C12F41D862B1D /* Pods-Brumethon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon.release.xcconfig"; path = "Target Support Files/Pods-Brumethon/Pods-Brumethon.release.xcconfig"; sourceTree = "<group>"; };
 		AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrumethonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8483C327DA7D020002C0BB /* SignUpLoginInfosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLoginInfosViewController.swift; sourceTree = "<group>"; };
+		BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpLoginInfosViewController.xib; sourceTree = "<group>"; };
 		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
@@ -225,12 +229,8 @@
 		5748355127D955E1001CE3A8 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				5748355627D9615B001CE3A8 /* SignInViewController.swift */,
-				5748355727D9615B001CE3A8 /* SignInViewController.xib */,
-				5772BF6427DA4EDF00084D94 /* SignUpInformationViewController.swift */,
-				5772BF6527DA4EDF00084D94 /* SignUpInformationViewController.xib */,
-				5772BF6A27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.swift */,
-				5772BF6B27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.xib */,
+				BE8483C227DA7CDE0002C0BB /* SignUp */,
+				BE8483C127DA7CD40002C0BB /* SignIn */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -265,6 +265,28 @@
 				AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8483C127DA7CD40002C0BB /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5748355627D9615B001CE3A8 /* SignInViewController.swift */,
+				5748355727D9615B001CE3A8 /* SignInViewController.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		BE8483C227DA7CDE0002C0BB /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5772BF6427DA4EDF00084D94 /* SignUpInformationViewController.swift */,
+				5772BF6527DA4EDF00084D94 /* SignUpInformationViewController.xib */,
+				5772BF6A27DA587A00084D94 /* SignUpAddressViewController.swift */,
+				5772BF6B27DA587A00084D94 /* SignUpAddressViewController.xib */,
+				BE8483C327DA7D020002C0BB /* SignUpLoginInfosViewController.swift */,
+				BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		BE9A8EB827D9F28F0007E32A /* Models */ = {
@@ -463,8 +485,9 @@
 				5748354927D9414E001CE3A8 /* Localizable.strings in Resources */,
 				5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */,
 				5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */,
+				BE8483C627DA7D020002C0BB /* SignUpLoginInfosViewController.xib in Resources */,
 				5748356627D98571001CE3A8 /* MainViewController.xib in Resources */,
-				5772BF6D27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.xib in Resources */,
+				5772BF6D27DA587A00084D94 /* SignUpAddressViewController.xib in Resources */,
 				5772BF6727DA4EDF00084D94 /* SignUpInformationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +628,7 @@
 				BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */,
 				BE9A8EC727D9FCFB0007E32A /* Query.swift in Sources */,
 				BE9A8ECD27DA00130007E32A /* Problem.swift in Sources */,
+				BE8483C527DA7D020002C0BB /* SignUpLoginInfosViewController.swift in Sources */,
 				BE9A8ED627DA031B0007E32A /* SignInQuery.swift in Sources */,
 				5772BF6627DA4EDF00084D94 /* SignUpInformationViewController.swift in Sources */,
 				BE9A8ECB27D9FF370007E32A /* Address.swift in Sources */,
@@ -613,7 +637,7 @@
 				5748355D27D96F6B001CE3A8 /* styleUtil.swift in Sources */,
 				5748355827D9615B001CE3A8 /* SignInViewController.swift in Sources */,
 				BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */,
-				5772BF6C27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.swift in Sources */,
+				5772BF6C27DA587A00084D94 /* SignUpAddressViewController.swift in Sources */,
 				BE9A8ED327DA01A70007E32A /* User.swift in Sources */,
 				BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */,
 			);
@@ -725,6 +749,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -781,6 +806,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
