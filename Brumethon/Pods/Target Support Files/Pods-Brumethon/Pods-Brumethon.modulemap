@@ -1,0 +1,6 @@
+framework module Pods_Brumethon {
+  umbrella header "Pods-Brumethon-umbrella.h"
+
+  export *
+  module * { export * }
+}
