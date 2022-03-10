@@ -19,7 +19,14 @@ class SignUpCategoriesAndLocationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //Set header text
         self.addressHeader.text = languageUtil.getTranslatedText(translationString: "address") + " : "
+        
+        //Set placeholders
+        self.addressNumber.placeholder = languageUtil.getTranslatedText(translationString: "number")
+        self.streetNameTextField.placeholder = languageUtil.getTranslatedText(translationString: "street_name")
+        self.cityTextField.placeholder = languageUtil.getTranslatedText(translationString: "city")
+        self.zipCodeTextField.placeholder = languageUtil.getTranslatedText(translationString: "zip_code")
         
     }
 

@@ -21,6 +21,10 @@
 "phone_number" = "Phone number";
 "scooter_id"   = "Scooter identifier";
 "address"      = "Address";
+"street_name"  = "Street name";
+"zip_code"     = "Zip code";
+"city"         = "City";
+"number"       = "Number";
 
 //-------------------- SIGN IN --------------------//
 "sign_in.sign_in" = "Sign in";
