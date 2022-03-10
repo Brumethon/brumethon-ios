@@ -158,6 +158,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5726F1C327DA763200AED016 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5726F1C427DA763A00AED016 /* Carousel */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5726F1C427DA763A00AED016 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
 		5748350127D93A08001CE3A8 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +199,7 @@
 		5748350C27D93A08001CE3A8 /* Brumethon */ = {
 			isa = PBXGroup;
 			children = (
+				5726F1C327DA763200AED016 /* Components */,
 				BE9A8EC027D9FC410007E32A /* Network */,
 				5748355E27D97B23001CE3A8 /* Views */,
 				5748354E27D943C3001CE3A8 /* Utils */,

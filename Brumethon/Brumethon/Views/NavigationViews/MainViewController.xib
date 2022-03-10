@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Brumethon" customModuleProvider="target">
             <connections>
                 <outlet property="askHelpButton" destination="9Pf-5d-9kQ" id="ne5-hl-wQX"/>
+                <outlet property="containerView" destination="e40-sJ-bxt" id="dfa-cf-mZt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,20 +29,27 @@
                         <action selector="handleHelp:" destination="-1" eventType="touchUpInside" id="fVm-eg-Nl2"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e40-sJ-bxt">
+                    <rect key="frame" x="50" y="144" width="314" height="447"/>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="Secondary color"/>
             <constraints>
+                <constraint firstItem="e40-sJ-bxt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="7zP-6I-QJj"/>
+                <constraint firstItem="9Pf-5d-9kQ" firstAttribute="top" secondItem="e40-sJ-bxt" secondAttribute="bottom" constant="200" id="Nzu-1P-9pM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9Pf-5d-9kQ" secondAttribute="trailing" constant="100" id="S7j-a2-g30"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="e40-sJ-bxt" secondAttribute="trailing" constant="50" id="elM-Zz-xz2"/>
                 <constraint firstItem="9Pf-5d-9kQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="iCa-Yr-Lk1"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9Pf-5d-9kQ" secondAttribute="bottom" constant="40" id="qu1-to-BN3"/>
+                <constraint firstItem="e40-sJ-bxt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="tIj-9W-GQY"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="151"/>
+            <point key="canvasLocation" x="137.68115942028987" y="150.66964285714286"/>
         </view>
     </objects>
     <resources>
         <namedColor name="Secondary color">
-            <color red="0.792156862745098" green="0.94117647058823528" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.79199999570846558" green="0.94099998474121094" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
