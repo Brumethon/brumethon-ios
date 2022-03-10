@@ -20,4 +20,8 @@ class styleUtil {
         input.rightView     = rightPadding
         input.rightViewMode = .always
     }
+    
+    class func setRGBColor(red : Double, green : Double, blue : Double,alpha : Double) -> UIColor {
+        return UIColor(red: red / 255, green: green / 255, blue: blue / 255, alpha: alpha)
+    }
 }

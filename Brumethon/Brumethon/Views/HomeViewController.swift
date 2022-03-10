@@ -12,30 +12,47 @@ import MapKit
 class HomeViewController: UIViewController {
 
     var locationManager : CLLocationManager!
+    let tabBarIcons = ["house","person"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.locationManager = CLLocationManager()
+        //Ask user's authorization to locate him
         
-        askUserAuthorizationToLocate(locationManager: self.locationManager)
-        // Do any additional setup after loading the view.
+        //Define views that'll be in the tabBar
+        
+        let homeVC      = MainViewController()
+        let profileVC   = ProfileViewController()
+        
+        super.viewDidLoad()
+        
+        homeVC.title    = languageUtil.getTranslatedText(translationString: "home")
+        profileVC.title = languageUtil.getTranslatedText(translationString: "profile")
+        
+        let tabBarController = UITabBarController()
+        
+        //Set list of controllers in the tab bar
+        tabBarController.setViewControllers([
+            homeVC,
+            profileVC
+        ], animated: false)
+        
+        let items = tabBarController.tabBar.items
+        
+        
+        for index in 0...1 {
+            items![index].image = UIImage(systemName: self.tabBarIcons[index])
+        }
+        
+        tabBarController.tabBar.tintColor = styleUtil.setRGBColor(red: 146, green: 169, blue: 189, alpha: 1)
+        tabBarController.tabBar.backgroundColor = styleUtil.setRGBColor(red: 211, green: 222, blue: 220, alpha: 1) 
+        tabBarController.modalPresentationStyle = .fullScreen
+        
+        present(tabBarController,animated:true)
+        
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
 
-func askUserAuthorizationToLocate(locationManager : CLLocationManager) {
-    locationManager.requestWhenInUseAuthorization()
-}
+

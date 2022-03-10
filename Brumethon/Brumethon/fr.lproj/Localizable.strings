@@ -11,7 +11,8 @@
 "password" = "Mot de passe";
 "username" = "Nom d'utilisateur";
 "error"    = "Erreur";
-
+"home"     = "Accueil";
+"profile"  = "Profil";
 
 //-------------------- SIGN IN --------------------//
 "sign_in.signin" = "Se connecter";

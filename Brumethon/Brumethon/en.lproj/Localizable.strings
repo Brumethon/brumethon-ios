@@ -11,6 +11,8 @@
 "password" = "Password";
 "username" = "Username";
 "error"    = "Error";
+"home"     = "Home";
+"profile"  = "Profile";
 
 
 //-------------------- SIGN IN --------------------//

@@ -65,7 +65,7 @@ class SignInViewController: UIViewController {
         }
         
         //At last if every tests passed
-        print("Well done you may be connected !")
+        self.navigationController?.pushViewController(HomeViewController(), animated: true)
     }
     
 }
