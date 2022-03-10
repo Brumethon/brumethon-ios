@@ -33,6 +33,8 @@
 		94217FEF366F422B5DC898FA /* Pods_BrumethonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */; };
 		BE8483C527DA7D020002C0BB /* SignUpLoginInfosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483C327DA7D020002C0BB /* SignUpLoginInfosViewController.swift */; };
 		BE8483C627DA7D020002C0BB /* SignUpLoginInfosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */; };
+		BE8483C927DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483C727DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift */; };
+		BE8483CA27DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483C827DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib */; };
 		BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB627D9F0D70007E32A /* Documentation.docc */; };
 		BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB927D9F3D90007E32A /* Service.swift */; };
 		BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EBB27D9F4080007E32A /* UserInfos.swift */; };
@@ -103,6 +105,8 @@
 		AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrumethonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8483C327DA7D020002C0BB /* SignUpLoginInfosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLoginInfosViewController.swift; sourceTree = "<group>"; };
 		BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpLoginInfosViewController.xib; sourceTree = "<group>"; };
+		BE8483C727DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpChooseCategoriesViewController.swift; sourceTree = "<group>"; };
+		BE8483C827DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpChooseCategoriesViewController.xib; sourceTree = "<group>"; };
 		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
@@ -285,6 +289,8 @@
 				5772BF6B27DA587A00084D94 /* SignUpAddressViewController.xib */,
 				BE8483C327DA7D020002C0BB /* SignUpLoginInfosViewController.swift */,
 				BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */,
+				BE8483C727DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift */,
+				BE8483C827DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 			files = (
 				5748356227D9808F001CE3A8 /* ProfileViewController.xib in Resources */,
 				5748355927D9615B001CE3A8 /* SignInViewController.xib in Resources */,
+				BE8483CA27DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib in Resources */,
 				5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */,
 				5748354927D9414E001CE3A8 /* Localizable.strings in Resources */,
 				5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */,
@@ -626,6 +633,7 @@
 				5748355B27D96981001CE3A8 /* languageUtil.swift in Sources */,
 				BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */,
 				BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */,
+				BE8483C927DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift in Sources */,
 				BE9A8EC727D9FCFB0007E32A /* Query.swift in Sources */,
 				BE9A8ECD27DA00130007E32A /* Problem.swift in Sources */,
 				BE8483C527DA7D020002C0BB /* SignUpLoginInfosViewController.swift in Sources */,
