@@ -7,43 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		243B1382CAF4CCD88948640EEBBB5B51 /* Pods-Brumethon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6E802A6CB1A4668BA2E35542604880 /* Pods-Brumethon-dummy.m */; };
-		276BECEF89E2BBDAD2876E541C90ABBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1967EED914053205624EADDB12867014 /* Pods-Brumethon-BrumethonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CBA1BDE63D24D49BF2D72062A7E063 /* Pods-Brumethon-BrumethonUITests-dummy.m */; };
+		204A06E2B491603B73D61A804F08E958 /* Pods-Brumethon-BrumethonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A99F01126245EF82AA1EFC04BC1EFDB2 /* Pods-Brumethon-BrumethonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F985FBB7862FE6631D0EE37C38787DB /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A043AAE914BB43BA51128F2D44CDD /* TagView.swift */; };
 		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		44A0B566434B24885D523FF90FDE62AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */; };
-		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */; };
-		6DDB098E052B5B7BC767A65A0AFE39C7 /* Pods-Brumethon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47300411936C2D0CCA35CFD294BFCA27 /* Pods-Brumethon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */; };
-		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */; };
-		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */; };
-		8ACC068FF13E47733A191705EFC363D5 /* Pods-Brumethon-BrumethonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CBA1BDE63D24D49BF2D72062A7E063 /* Pods-Brumethon-BrumethonUITests-dummy.m */; };
-		8F77FFF2A7D4A455B7E41933D1F32D72 /* Pods-Brumethon-BrumethonUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A99F01126245EF82AA1EFC04BC1EFDB2 /* Pods-Brumethon-BrumethonUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B15A5DD194D029695FAE8A511506D27 /* TagListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC8A29472B49F6E349124A98B0ABF1 /* TagListView-dummy.m */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4CE734F71D30F0A2EAE18003A97B9 /* DropDown+Appearance.swift */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942B889275EED96C3B2313C3541E39C2 /* DropDownCell.xib */; };
+		6DF8F422D14969D46ECC9BB941CC9FD9 /* Pods-Brumethon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6E802A6CB1A4668BA2E35542604880 /* Pods-Brumethon-dummy.m */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58AAA044BED713CC44A421073088A9 /* DPDConstants.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5C3AF306FC9C5D2EED8CA5B37953 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90117B1DC794823B2FB739E181F12B4 /* DPDKeyboardListener.swift */; };
 		901B5793E8D927C5887CBBD4C420D937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */; };
-		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */; };
-		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9856AF8A95EDE97DFFBACE4182C65F /* DropDown-dummy.m */; };
+		9BFF656C8FEB135CDFFB389EB7CD42E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972D449BDC5C1DCB2333674F0C39DE93 /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D2A93BD73E1C60628661631348EA3A /* DropDownCell.swift */; };
+		BDC2267C4B0D8F1F47FA96287BE02864 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE18320333964CB9AB4E734A6F23D2 /* CloseButton.swift */; };
 		CDB46D6938E67C547F5DCCF7273BFC90 /* Pods-BrumethonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E179798C2D17B1495C7C61C96EBD3BC7 /* Pods-BrumethonTests-dummy.m */; };
-		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D154B07E3CE9C75A5A318A27AECB210D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D5C2604DD628E186B485C9E21006A811 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BCC499003C66BA0764B17E1B5469E0 /* TagListView.swift */; };
+		DD6883323395BAB7FA500B3009FB4B5E /* TagListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB452970AFC83A02B57837FED346151 /* TagListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D968C3822D52FF7A6BE1A9F399AB74 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1BE9FA89A9DFC892A2F7D146CDB197E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E2EC11A9B6E34FDB65720C419A447647 /* Pods-BrumethonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 213F5FF7DCB5F7C98CC22526627AE98E /* Pods-BrumethonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDB20FB6C0EB6D89C7E5FBC7F0E1A21 /* Pods-Brumethon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47300411936C2D0CCA35CFD294BFCA27 /* Pods-Brumethon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2E98093A14F3D761666D324EC7A74347 /* PBXContainerItemProxy */ = {
+		1C85CDE6A12679DC901A7BBC8CF9E295 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
-			remoteInfo = DropDown;
+			remoteGlobalIDString = B43A58FC22C898DE29F6E12FE9636507;
+			remoteInfo = TagListView;
 		};
-		63BDDE16E33C62FBEDC6B01C1DF3A6E2 /* PBXContainerItemProxy */ = {
+		7408E73DA24B66CC5EA4FB9BCABA3207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43A58FC22C898DE29F6E12FE9636507;
+			remoteInfo = TagListView;
+		};
+		74C8519038C63CBDBB7C38101C201686 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01F7F03698514DA13F20F44A1936D895;
 			remoteInfo = "Pods-Brumethon";
 		};
-		64749826883D1633F9C3375EB84CC707 /* PBXContainerItemProxy */ = {
+		D56172B453CE5A913D83A7080081E960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		EF4D39F6224ED3EF1D6408F174765815 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -53,76 +73,95 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BCC499003C66BA0764B17E1B5469E0 /* TagListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagListView.swift; path = TagListView/TagListView.swift; sourceTree = "<group>"; };
 		107C2A8A477AF84CF438FC30E0BA2FF0 /* Pods-BrumethonTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrumethonTests-Info.plist"; sourceTree = "<group>"; };
 		14D5FB4DAD294885B3DF60E92D99AF3D /* Pods-Brumethon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brumethon-frameworks.sh"; sourceTree = "<group>"; };
+		18EC8A29472B49F6E349124A98B0ABF1 /* TagListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TagListView-dummy.m"; sourceTree = "<group>"; };
+		1BF7ECD2C46450E69D484E7E577CC7BE /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
 		213F5FF7DCB5F7C98CC22526627AE98E /* Pods-BrumethonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrumethonTests-umbrella.h"; sourceTree = "<group>"; };
 		26CBA1BDE63D24D49BF2D72062A7E063 /* Pods-Brumethon-BrumethonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Brumethon-BrumethonUITests-dummy.m"; sourceTree = "<group>"; };
-		2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
-		2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
-		3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
-		451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		2F8E78E94FEF395BC4F1C1E163C2AE8A /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		3CB452970AFC83A02B57837FED346151 /* TagListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TagListView-umbrella.h"; sourceTree = "<group>"; };
 		47300411936C2D0CCA35CFD294BFCA27 /* Pods-Brumethon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Brumethon-umbrella.h"; sourceTree = "<group>"; };
 		4CF582702773DA9E64D7CA0066E88215 /* Pods-Brumethon-BrumethonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brumethon-BrumethonUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4EBB7D745CB0D38F94D8ABF74E93B412 /* Pods-Brumethon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brumethon.debug.xcconfig"; sourceTree = "<group>"; };
 		4F1889268C0EB6DA3B34B83D74891BB7 /* Pods-Brumethon-BrumethonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Brumethon-BrumethonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		530A043AAE914BB43BA51128F2D44CDD /* TagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagView.swift; path = TagListView/TagView.swift; sourceTree = "<group>"; };
+		5A3B23B7E67F7B7326C2DD867BF49482 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
 		5DA397A0AB9ADE8B52D4C8D02445C661 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brumethon-BrumethonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E9A6F85D4F2E48871EDEFCDD4F48931 /* TagListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TagListView.release.xcconfig; sourceTree = "<group>"; };
+		5F58AAA044BED713CC44A421073088A9 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		66D968C3822D52FF7A6BE1A9F399AB74 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
 		6DEB720A9B1D4EB10BA4ABB5BD03AB8B /* Pods-BrumethonTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BrumethonTests"; path = Pods_BrumethonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		705F80743E782D6CB77255884CE0A7DF /* TagListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TagListView.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		787AF57C881EA201B46737A7F14A58CB /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
 		794E9DAAA04BC883DE6CE2128D285772 /* Pods-Brumethon-BrumethonUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Brumethon-BrumethonUITests.modulemap"; sourceTree = "<group>"; };
+		7E9856AF8A95EDE97DFFBACE4182C65F /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
 		825E2BDFE10E4D03E3F2F86B59C7C69A /* Pods-BrumethonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BrumethonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		842A4D5896637F6BA27F0E65262797F0 /* TagListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TagListView.modulemap; sourceTree = "<group>"; };
+		85E4C71ED52304F1AB0503E80CD9CB1E /* TagListView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TagListView; path = TagListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		878E4D9E0C1EAB96C520D00C737086C7 /* Pods-Brumethon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Brumethon.modulemap"; sourceTree = "<group>"; };
 		8C4DB55FA877E6EAD0C23A9AE1D75448 /* Pods-Brumethon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brumethon.release.xcconfig"; sourceTree = "<group>"; };
-		8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
-		93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		8EDAE3BC726B683E3CED0803A7C216B9 /* TagListView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TagListView-Info.plist"; sourceTree = "<group>"; };
+		942B889275EED96C3B2313C3541E39C2 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		9437F87893FBBFB8B022300CC2EBD325 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		972D449BDC5C1DCB2333674F0C39DE93 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		A99F01126245EF82AA1EFC04BC1EFDB2 /* Pods-Brumethon-BrumethonUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Brumethon-BrumethonUITests-umbrella.h"; sourceTree = "<group>"; };
 		AC6E802A6CB1A4668BA2E35542604880 /* Pods-Brumethon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Brumethon-dummy.m"; sourceTree = "<group>"; };
-		AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
 		B652E53E1D9083365D30BA3B05B10859 /* Pods-Brumethon-BrumethonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brumethon-BrumethonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0C611FA929233F511B14E5ACA4D0BCB /* Pods-Brumethon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brumethon-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5E95EFF580562BF87289347607447F7 /* Pods-Brumethon-BrumethonUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brumethon-BrumethonUITests-Info.plist"; sourceTree = "<group>"; };
+		C90117B1DC794823B2FB739E181F12B4 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
 		CB7E45995A2BC0BE728F11DC1B220D99 /* Pods-BrumethonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrumethonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE04DA6AA780C9C9808C4CB9341E1C15 /* Pods-BrumethonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BrumethonTests.modulemap"; sourceTree = "<group>"; };
 		CEA0881C753C0ED23F249BF55B1791CC /* Pods-Brumethon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brumethon-Info.plist"; sourceTree = "<group>"; };
+		CEAE18320333964CB9AB4E734A6F23D2 /* CloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloseButton.swift; path = TagListView/CloseButton.swift; sourceTree = "<group>"; };
+		CF3F0B01C7681FF2C375A27135EDA6D0 /* TagListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TagListView-prefix.pch"; sourceTree = "<group>"; };
 		D5ED74A51A9260B3B534E0660F64FB94 /* Pods-Brumethon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Brumethon-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		E0D2A93BD73E1C60628661631348EA3A /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
 		E179798C2D17B1495C7C61C96EBD3BC7 /* Pods-BrumethonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrumethonTests-dummy.m"; sourceTree = "<group>"; };
-		E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
 		E608355AB2F24E26E8906D533D614E08 /* Pods-Brumethon-BrumethonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brumethon-BrumethonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EC25B3E0F48B6E89400171F72FCB3B14 /* Pods-BrumethonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrumethonTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE76C5F7F1A516E09808D0CCCE58B0D1 /* Pods-BrumethonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrumethonTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		F38B77507D0C4EA8E69B8F2680314006 /* Pods-Brumethon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Brumethon"; path = Pods_Brumethon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		F3E4CE734F71D30F0A2EAE18003A97B9 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		FB5D5C3AF306FC9C5D2EED8CA5B37953 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		FEDE0033F6906B5EBA81ADB337E2F843 /* Pods-Brumethon-BrumethonUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Brumethon-BrumethonUITests"; path = Pods_Brumethon_BrumethonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29FFCBAC99FB9DEDC155D101A553D3CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				276BECEF89E2BBDAD2876E541C90ABBB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F2E94880618487F5A3C67D96F50C416 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				44A0B566434B24885D523FF90FDE62AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B565819B40C529482797CC6DD1A14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BE9FA89A9DFC892A2F7D146CDB197E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885987B7360B45AD595D12CA102A7D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFF656C8FEB135CDFFB389EB7CD42E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A8590BB518581708AD0944225E8794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D154B07E3CE9C75A5A318A27AECB210D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,45 +176,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D114B328A63C934E528549C2DCFE8D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCD9DE78A7260CA1D999340CF0124D1D /* DropDown.modulemap */,
-				AF17E1BF2597D8F37F69DB34CA024E5C /* DropDown-dummy.m */,
-				2F8A529C653A26F8D0B57E1CD7B2B5E6 /* DropDown-Info.plist */,
-				730D85BE0320FD50EA665A82042E5742 /* DropDown-prefix.pch */,
-				F8F61850F82D6CC477FAF8326336FD5A /* DropDown-umbrella.h */,
-				E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */,
-				9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
-			sourceTree = "<group>";
-		};
-		057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1340602042F82FB2F98974EB1B0C2387 /* DropDown */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		1340602042F82FB2F98974EB1B0C2387 /* DropDown */ = {
-			isa = PBXGroup;
-			children = (
-				3761A77A038E79C8451C03293CDA4FC0 /* DPDConstants.swift */,
-				8DBB2377069976EC65992A59335066D3 /* DPDKeyboardListener.swift */,
-				451F84589A96D52448FD74E261268404 /* DPDUIView+Extension.swift */,
-				2FCC1AD54C344AFD4E184B9586BFE267 /* DropDown.swift */,
-				A87586FE2C9DECB6AE7FCA3238E4A1B8 /* DropDown+Appearance.swift */,
-				93EA092CDFBD4C66A29A9CDEA1DE78E1 /* DropDownCell.swift */,
-				C59647B6F3C67ED72D999C113D892AF0 /* Resources */,
-				03D114B328A63C934E528549C2DCFE8D /* Support Files */,
-			);
-			name = DropDown;
-			path = DropDown;
-			sourceTree = "<group>";
-		};
 		208DB134836F2D37C90855D821CA85AA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +200,33 @@
 			);
 			name = "Pods-BrumethonTests";
 			path = "Target Support Files/Pods-BrumethonTests";
+			sourceTree = "<group>";
+		};
+		41F80991C8E8E6B4ABE80789C0255723 /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE18320333964CB9AB4E734A6F23D2 /* CloseButton.swift */,
+				01BCC499003C66BA0764B17E1B5469E0 /* TagListView.swift */,
+				530A043AAE914BB43BA51128F2D44CDD /* TagView.swift */,
+				53EE387A312325695E6503A3F217B79C /* Support Files */,
+			);
+			name = TagListView;
+			path = TagListView;
+			sourceTree = "<group>";
+		};
+		53EE387A312325695E6503A3F217B79C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				842A4D5896637F6BA27F0E65262797F0 /* TagListView.modulemap */,
+				18EC8A29472B49F6E349124A98B0ABF1 /* TagListView-dummy.m */,
+				8EDAE3BC726B683E3CED0803A7C216B9 /* TagListView-Info.plist */,
+				CF3F0B01C7681FF2C375A27135EDA6D0 /* TagListView-prefix.pch */,
+				3CB452970AFC83A02B57837FED346151 /* TagListView-umbrella.h */,
+				705F80743E782D6CB77255884CE0A7DF /* TagListView.debug.xcconfig */,
+				5E9A6F85D4F2E48871EDEFCDD4F48931 /* TagListView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TagListView";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -227,6 +254,15 @@
 			path = "Target Support Files/Pods-Brumethon-BrumethonUITests";
 			sourceTree = "<group>";
 		};
+		5A9E63E7E1FAEFED01A9BCA0FD03FB2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE7526CDB0E39587E9A0ED5F6E46C1D7 /* DropDown */,
+				41F80991C8E8E6B4ABE80789C0255723 /* TagListView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		779CABA2390B5BC0A657E4715F603A28 /* Pods-Brumethon */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,12 +280,55 @@
 			path = "Target Support Files/Pods-Brumethon";
 			sourceTree = "<group>";
 		};
-		C59647B6F3C67ED72D999C113D892AF0 /* Resources */ = {
+		98FE4D38C04325410AC194013B8A3394 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EEBC6D732E1B0C41C6A8D03A8C81CF47 /* DropDownCell.xib */,
+				942B889275EED96C3B2313C3541E39C2 /* DropDownCell.xib */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA23CB9F088DF1BFB3650A0E883F7058 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A3B23B7E67F7B7326C2DD867BF49482 /* DropDown.modulemap */,
+				7E9856AF8A95EDE97DFFBACE4182C65F /* DropDown-dummy.m */,
+				9437F87893FBBFB8B022300CC2EBD325 /* DropDown-Info.plist */,
+				1BF7ECD2C46450E69D484E7E577CC7BE /* DropDown-prefix.pch */,
+				66D968C3822D52FF7A6BE1A9F399AB74 /* DropDown-umbrella.h */,
+				787AF57C881EA201B46737A7F14A58CB /* DropDown.debug.xcconfig */,
+				2F8E78E94FEF395BC4F1C1E163C2AE8A /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		CA717DC00699E902FF1CA116A3AC3513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				F38B77507D0C4EA8E69B8F2680314006 /* Pods-Brumethon */,
+				FEDE0033F6906B5EBA81ADB337E2F843 /* Pods-Brumethon-BrumethonUITests */,
+				6DEB720A9B1D4EB10BA4ABB5BD03AB8B /* Pods-BrumethonTests */,
+				85E4C71ED52304F1AB0503E80CD9CB1E /* TagListView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7526CDB0E39587E9A0ED5F6E46C1D7 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				5F58AAA044BED713CC44A421073088A9 /* DPDConstants.swift */,
+				C90117B1DC794823B2FB739E181F12B4 /* DPDKeyboardListener.swift */,
+				972D449BDC5C1DCB2333674F0C39DE93 /* DPDUIView+Extension.swift */,
+				FB5D5C3AF306FC9C5D2EED8CA5B37953 /* DropDown.swift */,
+				F3E4CE734F71D30F0A2EAE18003A97B9 /* DropDown+Appearance.swift */,
+				E0D2A93BD73E1C60628661631348EA3A /* DropDownCell.swift */,
+				98FE4D38C04325410AC194013B8A3394 /* Resources */,
+				CA23CB9F088DF1BFB3650A0E883F7058 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -257,8 +336,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				057ED11B9D5977F85CBBBEF7C3E69DDB /* Pods */,
-				FBA48FA331D5188BDDFF39980F3778A6 /* Products */,
+				5A9E63E7E1FAEFED01A9BCA0FD03FB2E /* Pods */,
+				CA717DC00699E902FF1CA116A3AC3513 /* Products */,
 				208DB134836F2D37C90855D821CA85AA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -271,33 +350,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FBA48FA331D5188BDDFF39980F3778A6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
-				F38B77507D0C4EA8E69B8F2680314006 /* Pods-Brumethon */,
-				FEDE0033F6906B5EBA81ADB337E2F843 /* Pods-Brumethon-BrumethonUITests */,
-				6DEB720A9B1D4EB10BA4ABB5BD03AB8B /* Pods-BrumethonTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F9567C1DE3757096C83B5422B06F5E6 /* Headers */ = {
+		5A6343FEA3F0933168A04B503901B970 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F77FFF2A7D4A455B7E41933D1F32D72 /* Pods-Brumethon-BrumethonUITests-umbrella.h in Headers */,
+				204A06E2B491603B73D61A804F08E958 /* Pods-Brumethon-BrumethonUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		324F13E8BA3D889C3D3C6AA32DF405C5 /* Headers */ = {
+		82A2F10C088A2EB35DBAF6D268CFE819 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDB098E052B5B7BC767A65A0AFE39C7 /* Pods-Brumethon-umbrella.h in Headers */,
+				EEDB20FB6C0EB6D89C7E5FBC7F0E1A21 /* Pods-Brumethon-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +374,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2889FA6F2003E5684D206A20D8AA5B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6883323395BAB7FA500B3009FB4B5E /* TagListView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,17 +398,18 @@
 /* Begin PBXNativeTarget section */
 		01F7F03698514DA13F20F44A1936D895 /* Pods-Brumethon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3A4F2396AFDCECFE6F500A9D89DD77B /* Build configuration list for PBXNativeTarget "Pods-Brumethon" */;
+			buildConfigurationList = AD3C6778A66C73AE95B0D34012B98DF7 /* Build configuration list for PBXNativeTarget "Pods-Brumethon" */;
 			buildPhases = (
-				324F13E8BA3D889C3D3C6AA32DF405C5 /* Headers */,
-				19CE82335BEE9423453ED35FEDC09A96 /* Sources */,
-				5F2E94880618487F5A3C67D96F50C416 /* Frameworks */,
-				1355565686B6C618AF2A2478304F8046 /* Resources */,
+				82A2F10C088A2EB35DBAF6D268CFE819 /* Headers */,
+				00B6CCD39B3032042573419C79A24816 /* Sources */,
+				B7A8590BB518581708AD0944225E8794 /* Frameworks */,
+				A13DDFBE411CFE92769F5870597D9EA2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F02DF6ED45FE84D57D56E50839659CDB /* PBXTargetDependency */,
+				F3A3FBB537E11F61575B5D90CD4BD18B /* PBXTargetDependency */,
+				EEFF7466670310647DAF49C02C21068E /* PBXTargetDependency */,
 			);
 			name = "Pods-Brumethon";
 			productName = Pods_Brumethon;
@@ -341,21 +418,40 @@
 		};
 		8A4443BBC6A35DB7A5EE0B1CA1D9BB9F /* Pods-Brumethon-BrumethonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9CB17E2A22C1A82B8A517374A60E2B3 /* Build configuration list for PBXNativeTarget "Pods-Brumethon-BrumethonUITests" */;
+			buildConfigurationList = 417DB5035F804F87D179B1DFDFAA9F4F /* Build configuration list for PBXNativeTarget "Pods-Brumethon-BrumethonUITests" */;
 			buildPhases = (
-				0F9567C1DE3757096C83B5422B06F5E6 /* Headers */,
-				DE5913FB0C04823A5F8AD95A4E8A732F /* Sources */,
-				29FFCBAC99FB9DEDC155D101A553D3CB /* Frameworks */,
-				8B2EEFF08892E4EAE2AD25B3359E7937 /* Resources */,
+				5A6343FEA3F0933168A04B503901B970 /* Headers */,
+				BBC1618172A53B087C53910B38E9F1AD /* Sources */,
+				85B565819B40C529482797CC6DD1A14A /* Frameworks */,
+				3A3106800FE6D55C4D2C4C9A14C8D589 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C72ABEBAD2DF03C7B7092F251E06D5F2 /* PBXTargetDependency */,
+				5A93466CCA2A49C1A0FA8284C532F3FD /* PBXTargetDependency */,
+				7EEF6AADD06B33E33620066801757A64 /* PBXTargetDependency */,
 			);
 			name = "Pods-Brumethon-BrumethonUITests";
 			productName = Pods_Brumethon_BrumethonUITests;
 			productReference = FEDE0033F6906B5EBA81ADB337E2F843 /* Pods-Brumethon-BrumethonUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B43A58FC22C898DE29F6E12FE9636507 /* TagListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44697AAFAE74B58335611BB12149A629 /* Build configuration list for PBXNativeTarget "TagListView" */;
+			buildPhases = (
+				E2889FA6F2003E5684D206A20D8AA5B0 /* Headers */,
+				3FE02A0D85C2B8A0EAB733A9705E9A8F /* Sources */,
+				885987B7360B45AD595D12CA102A7D56 /* Frameworks */,
+				5452694D3A318C0033A76B9612DCE58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagListView;
+			productName = TagListView;
+			productReference = 85E4C71ED52304F1AB0503E80CD9CB1E /* TagListView */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD45403A03917413CA514F8B93A39355 /* Pods-BrumethonTests */ = {
@@ -370,7 +466,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				73A40B57A5CE30FAD9E61AC886DF2DEC /* PBXTargetDependency */,
+				42B597F6E0922B08BA35A489BF5C2CC9 /* PBXTargetDependency */,
 			);
 			name = "Pods-BrumethonTests";
 			productName = Pods_BrumethonTests;
@@ -413,7 +509,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FBA48FA331D5188BDDFF39980F3778A6 /* Products */;
+			productRefGroup = CA717DC00699E902FF1CA116A3AC3513 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -421,12 +517,20 @@
 				01F7F03698514DA13F20F44A1936D895 /* Pods-Brumethon */,
 				8A4443BBC6A35DB7A5EE0B1CA1D9BB9F /* Pods-Brumethon-BrumethonUITests */,
 				DD45403A03917413CA514F8B93A39355 /* Pods-BrumethonTests */,
+				B43A58FC22C898DE29F6E12FE9636507 /* TagListView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1355565686B6C618AF2A2478304F8046 /* Resources */ = {
+		3A3106800FE6D55C4D2C4C9A14C8D589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5452694D3A318C0033A76B9612DCE58B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,7 +544,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B2EEFF08892E4EAE2AD25B3359E7937 /* Resources */ = {
+		A13DDFBE411CFE92769F5870597D9EA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,11 +562,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19CE82335BEE9423453ED35FEDC09A96 /* Sources */ = {
+		00B6CCD39B3032042573419C79A24816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243B1382CAF4CCD88948640EEBBB5B51 /* Pods-Brumethon-dummy.m in Sources */,
+				6DF8F422D14969D46ECC9BB941CC9FD9 /* Pods-Brumethon-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +575,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB46D6938E67C547F5DCCF7273BFC90 /* Pods-BrumethonTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE02A0D85C2B8A0EAB733A9705E9A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC2267C4B0D8F1F47FA96287BE02864 /* CloseButton.swift in Sources */,
+				D5C2604DD628E186B485C9E21006A811 /* TagListView.swift in Sources */,
+				4B15A5DD194D029695FAE8A511506D27 /* TagListView-dummy.m in Sources */,
+				2F985FBB7862FE6631D0EE37C38787DB /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,76 +603,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE5913FB0C04823A5F8AD95A4E8A732F /* Sources */ = {
+		BBC1618172A53B087C53910B38E9F1AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ACC068FF13E47733A191705EFC363D5 /* Pods-Brumethon-BrumethonUITests-dummy.m in Sources */,
+				1967EED914053205624EADDB12867014 /* Pods-Brumethon-BrumethonUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		73A40B57A5CE30FAD9E61AC886DF2DEC /* PBXTargetDependency */ = {
+		42B597F6E0922B08BA35A489BF5C2CC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Brumethon";
 			target = 01F7F03698514DA13F20F44A1936D895 /* Pods-Brumethon */;
-			targetProxy = 63BDDE16E33C62FBEDC6B01C1DF3A6E2 /* PBXContainerItemProxy */;
+			targetProxy = 74C8519038C63CBDBB7C38101C201686 /* PBXContainerItemProxy */;
 		};
-		C72ABEBAD2DF03C7B7092F251E06D5F2 /* PBXTargetDependency */ = {
+		5A93466CCA2A49C1A0FA8284C532F3FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
 			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = 2E98093A14F3D761666D324EC7A74347 /* PBXContainerItemProxy */;
+			targetProxy = EF4D39F6224ED3EF1D6408F174765815 /* PBXContainerItemProxy */;
 		};
-		F02DF6ED45FE84D57D56E50839659CDB /* PBXTargetDependency */ = {
+		7EEF6AADD06B33E33620066801757A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TagListView;
+			target = B43A58FC22C898DE29F6E12FE9636507 /* TagListView */;
+			targetProxy = 1C85CDE6A12679DC901A7BBC8CF9E295 /* PBXContainerItemProxy */;
+		};
+		EEFF7466670310647DAF49C02C21068E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TagListView;
+			target = B43A58FC22C898DE29F6E12FE9636507 /* TagListView */;
+			targetProxy = 7408E73DA24B66CC5EA4FB9BCABA3207 /* PBXContainerItemProxy */;
+		};
+		F3A3FBB537E11F61575B5D90CD4BD18B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DropDown;
 			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = 64749826883D1633F9C3375EB84CC707 /* PBXContainerItemProxy */;
+			targetProxy = D56172B453CE5A913D83A7080081E960 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		36336205115133F6F8D5CB22454BAAF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EBB7D745CB0D38F94D8ABF74E93B412 /* Pods-Brumethon.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3DDDD7D635A74187AFEAF9BC0D697EFB /* Debug */ = {
+		2E38B9B18EAAE8CFB1875CEE9A8B48DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B652E53E1D9083365D30BA3B05B10859 /* Pods-Brumethon-BrumethonUITests.debug.xcconfig */;
 			buildSettings = {
@@ -594,9 +684,9 @@
 			};
 			name = Debug;
 		};
-		4450CF8327ED2857D6EA6087A4A68C08 /* Release */ = {
+		3CF416EEA11D9FF79021E13C86771776 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DA397A0AB9ADE8B52D4C8D02445C661 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */;
+			baseConfigurationReference = 4EBB7D745CB0D38F94D8ABF74E93B412 /* Pods-Brumethon.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -608,7 +698,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -617,7 +707,44 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73FDA89CC49A52A55D2365C0CB49A08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4DB55FA877E6EAD0C23A9AE1D75448 /* Pods-Brumethon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -735,44 +862,6 @@
 			};
 			name = Debug;
 		};
-		919DD40CE97A438E0EE5D7A92ABCBD9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C4DB55FA877E6EAD0C23A9AE1D75448 /* Pods-Brumethon.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Brumethon/Pods-Brumethon.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -873,9 +962,78 @@
 			};
 			name = Release;
 		};
+		BAEA7D1EDC7FEBD36CB69FA32CDBC546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705F80743E782D6CB77255884CE0A7DF /* TagListView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TagListView/TagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TagListView/TagListView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TagListView/TagListView.modulemap";
+				PRODUCT_MODULE_NAME = TagListView;
+				PRODUCT_NAME = TagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFBF9023551C3651D5BB75C645E42678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9A6F85D4F2E48871EDEFCDD4F48931 /* TagListView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TagListView/TagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TagListView/TagListView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TagListView/TagListView.modulemap";
+				PRODUCT_MODULE_NAME = TagListView;
+				PRODUCT_NAME = TagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C24518E891FAA59668669823639498EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C15EB8657063755722D9C7DC8D72885 /* DropDown.release.xcconfig */;
+			baseConfigurationReference = 2F8E78E94FEF395BC4F1C1E163C2AE8A /* DropDown.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -908,9 +1066,47 @@
 			};
 			name = Release;
 		};
+		CEED746B2E5D4DC85CF4AA7D4C96ED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA397A0AB9ADE8B52D4C8D02445C661 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5834E7BD925BD3ED29331C1938CC0B7 /* DropDown.debug.xcconfig */;
+			baseConfigurationReference = 787AF57C881EA201B46737A7F14A58CB /* DropDown.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -945,6 +1141,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		417DB5035F804F87D179B1DFDFAA9F4F /* Build configuration list for PBXNativeTarget "Pods-Brumethon-BrumethonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E38B9B18EAAE8CFB1875CEE9A8B48DC /* Debug */,
+				CEED746B2E5D4DC85CF4AA7D4C96ED32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44697AAFAE74B58335611BB12149A629 /* Build configuration list for PBXNativeTarget "TagListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEA7D1EDC7FEBD36CB69FA32CDBC546 /* Debug */,
+				BFBF9023551C3651D5BB75C645E42678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -963,20 +1177,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9CB17E2A22C1A82B8A517374A60E2B3 /* Build configuration list for PBXNativeTarget "Pods-Brumethon-BrumethonUITests" */ = {
+		AD3C6778A66C73AE95B0D34012B98DF7 /* Build configuration list for PBXNativeTarget "Pods-Brumethon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DDDD7D635A74187AFEAF9BC0D697EFB /* Debug */,
-				4450CF8327ED2857D6EA6087A4A68C08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3A4F2396AFDCECFE6F500A9D89DD77B /* Build configuration list for PBXNativeTarget "Pods-Brumethon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				36336205115133F6F8D5CB22454BAAF7 /* Debug */,
-				919DD40CE97A438E0EE5D7A92ABCBD9E /* Release */,
+				3CF416EEA11D9FF79021E13C86771776 /* Debug */,
+				73FDA89CC49A52A55D2365C0CB49A08A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

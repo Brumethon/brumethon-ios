@@ -27,6 +27,8 @@
 		5748356627D98571001CE3A8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5748356427D98571001CE3A8 /* MainViewController.xib */; };
 		5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748356827D9EB5F001CE3A8 /* ModalViewController.swift */; };
 		5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5748356927D9EB5F001CE3A8 /* ModalViewController.xib */; };
+		6DB8E99B285E8F506D024472 /* Pods_Brumethon_BrumethonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7453CDEB28E09B56B73706A6 /* Pods_Brumethon_BrumethonUITests.framework */; };
+		94217FEF366F422B5DC898FA /* Pods_BrumethonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */; };
 		BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB627D9F0D70007E32A /* Documentation.docc */; };
 		BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB927D9F3D90007E32A /* Service.swift */; };
 		BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EBB27D9F4080007E32A /* UserInfos.swift */; };
@@ -42,8 +44,6 @@
 		BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */; };
 		BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */; };
 		BE9A8EDE27DA047D0007E32A /* BecomeReferentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */; };
-		6DB8E99B285E8F506D024472 /* Pods_Brumethon_BrumethonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7453CDEB28E09B56B73706A6 /* Pods_Brumethon_BrumethonUITests.framework */; };
-		94217FEF366F422B5DC898FA /* Pods_BrumethonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,8 +96,6 @@
 		79CEC5074EBC64FF847F9F97 /* Pods-Brumethon-BrumethonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon-BrumethonUITests.release.xcconfig"; path = "Target Support Files/Pods-Brumethon-BrumethonUITests/Pods-Brumethon-BrumethonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9784A74A393C12F41D862B1D /* Pods-Brumethon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon.release.xcconfig"; path = "Target Support Files/Pods-Brumethon/Pods-Brumethon.release.xcconfig"; sourceTree = "<group>"; };
 		AC96018C1A208EBABA5F97E7 /* Pods_BrumethonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrumethonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCA04383FD441A07A80D7BF3 /* Pods-BrumethonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrumethonTests.debug.xcconfig"; path = "Target Support Files/Pods-BrumethonTests/Pods-BrumethonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brumethon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
@@ -112,6 +110,8 @@
 		BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemQuery.swift; sourceTree = "<group>"; };
 		BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfosQuery.swift; sourceTree = "<group>"; };
 		BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BecomeReferentQuery.swift; sourceTree = "<group>"; };
+		DCA04383FD441A07A80D7BF3 /* Pods-BrumethonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrumethonTests.debug.xcconfig"; path = "Target Support Files/Pods-BrumethonTests/Pods-BrumethonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brumethon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +153,6 @@
 				DCA04383FD441A07A80D7BF3 /* Pods-BrumethonTests.debug.xcconfig */,
 				6C38A8810FD0AF98140FBF86 /* Pods-BrumethonTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

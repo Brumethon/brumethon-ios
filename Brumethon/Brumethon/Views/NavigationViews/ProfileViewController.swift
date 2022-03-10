@@ -6,16 +6,46 @@
 //
 
 import UIKit
+import TagListView
 
 class ProfileViewController: UIViewController {
+
+    @IBOutlet weak var categoriesListView: TagListView!
+    
+    let primaryColor = UIColor(named: "Primary Color")
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        categoriesListView.addTags(["Toto", "Tata", "Tutu"])
+        categoriesListView.textFont = UIFont.systemFont(ofSize: 22)
+
+        for tagView in categoriesListView.tagViews {
+            tagView.cornerRadius = 20
+            tagView.paddingX = 15
+            tagView.paddingY = 10
+            
+            tagView.tagBackgroundColor = primaryColor!
+            tagView.textColor = .white
+        }
         
+
+
     }
+    
+//    func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
+//        print(title)
+//        if tagView.tagBackgroundColor == primaryColor {
+//            tagView.tagBackgroundColor = .clear
+//            tagView.borderWidth = 1
+//            tagView.borderColor = primaryColor
+//        } else {
+//            tagView.tagBackgroundColor = primaryColor!
+//            tagView.borderColor = .clear
+//        }
+//    }
 
-
+    
     /*
     // MARK: - Navigation
 
