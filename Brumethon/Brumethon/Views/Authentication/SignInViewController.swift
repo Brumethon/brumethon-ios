@@ -65,7 +65,7 @@ class SignInViewController: UIViewController {
         }
         
         //At last if every tests passed
-        self.navigationController?.pushViewController(HomeViewController(), animated: true)
+        self.navigationController?.pushViewController(MainViewController(), animated: true)
     }
     
 }

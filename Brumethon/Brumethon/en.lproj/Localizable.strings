@@ -16,9 +16,18 @@
 "email"    = "E-mail";
 "categories" = "Categories";
 "home_address" = "Home address";
+"firstname"    = "Firstname";
+"lastname"     = "Lastname";
+"phone_number" = "Phone number";
+"scooter_id"   = "Scooter identifier";
+"address"      = "Address";
 
 //-------------------- SIGN IN --------------------//
 "sign_in.sign_in" = "Sign in";
+
+//-------------------- SIGN UP INFORMATIONS --------------------//
+"sign_up.already_have_acc" = "Already have an account ? Sign in !";
+"sign_up.next_step"         = "Next step";
 
 //-------------------- HOME --------------------//
 

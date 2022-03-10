@@ -20,13 +20,22 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         self.locationManager = CLLocationManager()
+        
+        
+        
         askUserAuthorizationToLocate(locationManager: self.locationManager)
         
         self.askHelpButton.setTitle(languageUtil.getTranslatedText(translationString: "main.ask_for_help"), for: .normal)
+        
     }
-
+    
     @IBAction func handleHelp(_ sender: Any) {
         self.present(ModalViewController(), animated: true)
+    }
+                                                                   
+    @objc
+    func handleProfile(){
+        print("test")
     }
     
 }
@@ -34,3 +43,5 @@ class MainViewController: UIViewController {
 func askUserAuthorizationToLocate(locationManager : CLLocationManager) {
     locationManager.requestWhenInUseAuthorization()
 }
+
+

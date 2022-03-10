@@ -16,9 +16,19 @@
 "email"    = "E-mail";
 "categories" = "Catégories";
 "home_address" = "Domicile";
+"firstname"   = "Prénom";
+"lastname"    = "Nom";
+"phone_number" = "Numéro de téléphone";
+"scooter_id"   = "Identifiant du scooter";
+"address"      = "Adresse";
 
 //-------------------- SIGN IN --------------------//
 "sign_in.sign_in" = "Se connecter";
+
+//-------------------- SIGN UP INFORMATIONS --------------------//
+//-------------------- SIGN UP INFORMATIONS --------------------//
+"sign_up.already_have_acc" = "Compte existant ? Connectez vous !";
+"sign_up.next_step"        = "Etape suivante";
 
 //-------------------- HOME --------------------//
 
