@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Brumethon
+
+  Created by Nicolas TRAN on 09/03/2022.
+  
+*/
+
+
+//-------------------- COMMON WORDS --------------------//
+"password" = "Password";
+"username" = "Username";
+"error"    = "Error";
+
+
+//-------------------- SIGN IN --------------------//
+"sign_in.signin" = "Sign in";
+
+//-------------------- ERRORS --------------------//
+"username_count" = "Username can't be empty.";
+"password_count" = "Password can't be empty.";

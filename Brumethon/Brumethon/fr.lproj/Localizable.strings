@@ -1,0 +1,22 @@
+/*
+  Localizable.strings
+  Brumethon
+
+  Created by Nicolas TRAN on 09/03/2022.
+  
+*/
+
+
+//-------------------- COMMON WORDS --------------------//
+"password" = "Mot de passe";
+"username" = "Nom d'utilisateur";
+"error"    = "Erreur";
+
+
+//-------------------- SIGN IN --------------------//
+"sign_in.signin" = "Se connecter";
+
+//-------------------- ERRORS --------------------//
+"username_count" = "Le nom d'utilisateur ne peut pas être vide.";
+"password_count" = "Le mot de passe ne peut pas être vide.";
+
