@@ -26,6 +26,21 @@
 		5748356627D98571001CE3A8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5748356427D98571001CE3A8 /* MainViewController.xib */; };
 		5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748356827D9EB5F001CE3A8 /* ModalViewController.swift */; };
 		5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5748356927D9EB5F001CE3A8 /* ModalViewController.xib */; };
+		BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB627D9F0D70007E32A /* Documentation.docc */; };
+		BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB927D9F3D90007E32A /* Service.swift */; };
+		BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EBB27D9F4080007E32A /* UserInfos.swift */; };
+		BE9A8EBF27D9FBF60007E32A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE9A8EBE27D9FBF60007E32A /* Alamofire */; };
+		BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EC327D9FCCA0007E32A /* ServiceError.swift */; };
+		BE9A8EC727D9FCFB0007E32A /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EC627D9FCFB0007E32A /* Query.swift */; };
+		BE9A8EC927D9FE3A0007E32A /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EC827D9FE3A0007E32A /* NetworkLogger.swift */; };
+		BE9A8ECB27D9FF370007E32A /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ECA27D9FF370007E32A /* Address.swift */; };
+		BE9A8ECD27DA00130007E32A /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ECC27DA00130007E32A /* Problem.swift */; };
+		BE9A8ECF27DA00BC0007E32A /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ECE27DA00BC0007E32A /* Scooter.swift */; };
+		BE9A8ED327DA01A70007E32A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED227DA01A70007E32A /* User.swift */; };
+		BE9A8ED627DA031B0007E32A /* SignInQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED527DA031B0007E32A /* SignInQuery.swift */; };
+		BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */; };
+		BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */; };
+		BE9A8EDE27DA047D0007E32A /* BecomeReferentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +86,20 @@
 		5748356427D98571001CE3A8 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		5748356827D9EB5F001CE3A8 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		5748356927D9EB5F001CE3A8 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
+		BE9A8EC327D9FCCA0007E32A /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		BE9A8EC627D9FCFB0007E32A /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		BE9A8EC827D9FE3A0007E32A /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		BE9A8ECA27D9FF370007E32A /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		BE9A8ECC27DA00130007E32A /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		BE9A8ECE27DA00BC0007E32A /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
+		BE9A8ED227DA01A70007E32A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BE9A8ED527DA031B0007E32A /* SignInQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInQuery.swift; sourceTree = "<group>"; };
+		BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemQuery.swift; sourceTree = "<group>"; };
+		BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfosQuery.swift; sourceTree = "<group>"; };
+		BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BecomeReferentQuery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9A8EBF27D9FBF60007E32A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +131,7 @@
 		5748350127D93A08001CE3A8 = {
 			isa = PBXGroup;
 			children = (
+				BE9A8EB627D9F0D70007E32A /* Documentation.docc */,
 				5748350C27D93A08001CE3A8 /* Brumethon */,
 				5748352327D93A0A001CE3A8 /* BrumethonTests */,
 				5748352D27D93A0A001CE3A8 /* BrumethonUITests */,
@@ -121,6 +152,7 @@
 		5748350C27D93A08001CE3A8 /* Brumethon */ = {
 			isa = PBXGroup;
 			children = (
+				BE9A8EC027D9FC410007E32A /* Network */,
 				5748355E27D97B23001CE3A8 /* Views */,
 				5748354E27D943C3001CE3A8 /* Utils */,
 				5748350D27D93A08001CE3A8 /* AppDelegate.swift */,
@@ -191,6 +223,82 @@
 			path = NavigationViews;
 			sourceTree = "<group>";
 		};
+		BE9A8EB827D9F28F0007E32A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8ED227DA01A70007E32A /* User.swift */,
+				BE9A8EBB27D9F4080007E32A /* UserInfos.swift */,
+				BE9A8ECA27D9FF370007E32A /* Address.swift */,
+				BE9A8ECC27DA00130007E32A /* Problem.swift */,
+				BE9A8ECE27DA00BC0007E32A /* Scooter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE9A8EC027D9FC410007E32A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8EC827D9FE3A0007E32A /* NetworkLogger.swift */,
+				BE9A8EC127D9FC4A0007E32A /* Services */,
+				BE9A8EB827D9F28F0007E32A /* Models */,
+				BE9A8EC527D9FCEE0007E32A /* Queries */,
+				BE9A8EC227D9FCB50007E32A /* Errors */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BE9A8EC127D9FC4A0007E32A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8EB927D9F3D90007E32A /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BE9A8EC227D9FCB50007E32A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8EC327D9FCCA0007E32A /* ServiceError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		BE9A8EC527D9FCEE0007E32A /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8EC627D9FCFB0007E32A /* Query.swift */,
+				BE9A8ED427DA03100007E32A /* Authentication */,
+				BE9A8EDA27DA04030007E32A /* User */,
+				BE9A8ED727DA03970007E32A /* Problem */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		BE9A8ED427DA03100007E32A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8ED527DA031B0007E32A /* SignInQuery.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BE9A8ED727DA03970007E32A /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */,
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		BE9A8EDA27DA04030007E32A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */,
+				BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,6 +315,9 @@
 			dependencies = (
 			);
 			name = Brumethon;
+			packageProductDependencies = (
+				BE9A8EBE27D9FBF60007E32A /* Alamofire */,
+			);
 			productName = Brumethon;
 			productReference = 5748350A27D93A08001CE3A8 /* Brumethon.app */;
 			productType = "com.apple.product-type.application";
@@ -280,6 +391,9 @@
 				fr,
 			);
 			mainGroup = 5748350127D93A08001CE3A8;
+			packageReferences = (
+				BE9A8EBD27D9FBF60007E32A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5748350B27D93A08001CE3A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -328,14 +442,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9A8EC927D9FE3A0007E32A /* NetworkLogger.swift in Sources */,
+				BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */,
 				5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */,
 				5748356527D98571001CE3A8 /* MainViewController.swift in Sources */,
+				BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */,
 				5748356127D9808F001CE3A8 /* ProfileViewController.swift in Sources */,
+				BE9A8EDE27DA047D0007E32A /* BecomeReferentQuery.swift in Sources */,
 				5748355B27D96981001CE3A8 /* languageUtil.swift in Sources */,
+				BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */,
+				BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */,
+				BE9A8EC727D9FCFB0007E32A /* Query.swift in Sources */,
+				BE9A8ECD27DA00130007E32A /* Problem.swift in Sources */,
+				BE9A8ED627DA031B0007E32A /* SignInQuery.swift in Sources */,
+				BE9A8ECB27D9FF370007E32A /* Address.swift in Sources */,
+				BE9A8ECF27DA00BC0007E32A /* Scooter.swift in Sources */,
 				5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */,
 				5748355D27D96F6B001CE3A8 /* styleUtil.swift in Sources */,
 				5748354327D93D79001CE3A8 /* HomeViewController.swift in Sources */,
 				5748355827D9615B001CE3A8 /* SignInViewController.swift in Sources */,
+				BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */,
+				BE9A8ED327DA01A70007E32A /* User.swift in Sources */,
+				BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,9 +646,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FQGP74M3NR;
+				DEVELOPMENT_TEAM = 3977B444S2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Brumethon/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do you accept to give your location ?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -532,8 +661,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nixoninho.Brumethon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gwendalvallee.Brumethon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,9 +677,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FQGP74M3NR;
+				DEVELOPMENT_TEAM = 3977B444S2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Brumethon/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do you accept to give your location ?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -561,8 +692,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nixoninho.Brumethon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gwendalvallee.Brumethon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -685,6 +817,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE9A8EBD27D9FBF60007E32A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE9A8EBE27D9FBF60007E32A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE9A8EBD27D9FBF60007E32A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5748350227D93A08001CE3A8 /* Project object */;
 }
