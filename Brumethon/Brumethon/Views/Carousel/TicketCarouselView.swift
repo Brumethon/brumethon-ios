@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TicketCarouselView: UIView {
+class TicketCarouselView: UIView, UICollectionViewDelegate {
 
    struct CarouselData {
       let image: UIImage?
@@ -47,7 +47,7 @@ extension TicketCarouselView: UICollectionViewDataSource {
    }
 
    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-      guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CarouselCell.cellId, for: indexPath) as? CarouselCell else { return UICollectionViewCell() }
+      guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TicketCell.cellId, for: indexPath) as? TicketCell else { return UICollectionViewCell() }
 
       let image = carouselData[indexPath.row].image
       let text = carouselData[indexPath.row].text
