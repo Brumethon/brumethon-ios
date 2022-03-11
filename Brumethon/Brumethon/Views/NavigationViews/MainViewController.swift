@@ -11,6 +11,7 @@ import iCarousel
 
 class MainViewController: UIViewController, iCarouselDataSource {
     
+    
     var locationManager : CLLocationManager!
     
     @IBOutlet weak var containerView: UIView!
@@ -31,7 +32,8 @@ class MainViewController: UIViewController, iCarouselDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+
+        
         let profileIcon = UIBarButtonItem(
             image: UIImage(systemName: "person.crop.circle.fill"),
             style: .plain,

@@ -13,7 +13,7 @@ final class SignInQuery: Query {
         let password: String
     }
     
-    var endpoint: String = "url here"
+    var endpoint: String = "/login"
     var method: HTTPMethod = .post
     var headers: HTTPHeaders?
     var parameters: QueryParameters?
