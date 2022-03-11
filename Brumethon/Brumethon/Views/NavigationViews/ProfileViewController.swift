@@ -14,9 +14,11 @@ class ProfileViewController: UIViewController {
     
     let primaryColor = UIColor(named: "Primary Color")
 
+    @IBOutlet weak var usernameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        usernameLabel.text = " \(User.shared.infos?.firstName ?? "Prénom") \(User.shared.infos?.lastName ?? "Nom")"
         categoriesListView.addTags(["Moteur", "Roues", "Jantes"])
         categoriesListView.textFont = UIFont.systemFont(ofSize: 18)
 

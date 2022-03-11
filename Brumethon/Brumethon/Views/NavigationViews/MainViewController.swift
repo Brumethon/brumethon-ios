@@ -39,6 +39,8 @@ class MainViewController: UIViewController, iCarouselDataSource, iCarouselDelega
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = false
+
         getUsersInfos()
 
         
@@ -95,30 +97,39 @@ class MainViewController: UIViewController, iCarouselDataSource, iCarouselDelega
         return self.problemsArray.count
     }
     
-    @objc func handleConfirmButton() {
-        self.navigationController?.present(TicketDetailsViewController(), animated: true)
-       
-    }
-    
     
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
         
         let view = CarouselView(frame: CGRect(x: 0, y: 0, width: self.containerView.frame.size.width, height: self.containerView.frame.size.height))
         
+        
+        let problem = problemsArray[index]
+        let userInfo : UserInfosResponse = problem.owner
+        
       
-        let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.handleConfirmButton))
-
-        view.addGestureRecognizer(gesture)
+        let tapGesture = CustomTapGestureRecognizer(target: self, action: #selector(goToDetailsView(sender:)))
+        
+        tapGesture.problem = problem
+        
+        print(problem)
+              
+        self.view.addGestureRecognizer(tapGesture)
         
         
-        let info = problemsArray[index]
-        view.messageTextPicker.text = info.description
-        
-        
-        //let userInfo : =
+        view.messageTextPicker.text = problem.description
+        view.userNameLabel.text     = userInfo.firstname + " " + userInfo.lastname
+        view.addressLabel.text      = userInfo.address
         
         
         return view
+    }
+    
+    @objc
+    func goToDetailsView(sender: CustomTapGestureRecognizer) {
+        let vc = TicketDetailsViewController()
+        vc.problem = sender.problem
+        self.navigationController?.present(vc, animated: true)
+       
     }
     
     func getUsersInfos(){
@@ -127,9 +138,10 @@ class MainViewController: UIViewController, iCarouselDataSource, iCarouselDelega
         userinfosservice.query { result in
             switch result {
                 case .success(let result):
+                
                 User.shared.infos?.mail = result.email
-                User.shared.infos?.firstName = result.firstName
-                User.shared.infos?.lastName = result.lastName
+                User.shared.infos?.firstName = result.firstname
+                User.shared.infos?.lastName = result.lastname
                 User.shared.infos?.address.street = result.address
                 User.shared.infos?.roles = result.roles
                 User.shared.infos?.phoneNumber = result.phoneNumber
@@ -147,4 +159,8 @@ class MainViewController: UIViewController, iCarouselDataSource, iCarouselDelega
 
 func askUserAuthorizationToLocate(locationManager : CLLocationManager) {
     locationManager.requestWhenInUseAuthorization()
+}
+
+class CustomTapGestureRecognizer: UITapGestureRecognizer {
+    var problem: Problem?
 }

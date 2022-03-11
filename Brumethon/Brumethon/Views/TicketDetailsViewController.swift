@@ -11,11 +11,12 @@ class TicketDetailsViewController: UIViewController, UIActionSheetDelegate {
 
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var numberStreetLabel: UILabel!
-    @IBOutlet weak var zipCodeCityLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
     
     @IBOutlet weak var acceptButton: UIButton!
     @IBOutlet weak var declineButton: UIButton!
+    
+    var problem: Problem?
     
     @IBAction func handleAccept(_ sender: Any) {
         acceptButton.isHidden = true
@@ -40,7 +41,7 @@ class TicketDetailsViewController: UIViewController, UIActionSheetDelegate {
     
     @IBOutlet weak var sendMessageButton: UIButton!
     @IBAction func handleSendMessage(_ sender: Any) {
-        guard let messageAppURL = URL(string: "sms:0647432341")
+        guard let messageAppURL = URL(string: "sms:\(problem?.owner.phoneNumber ?? "0606060606")")
         else { return }
         if UIApplication.shared.canOpenURL(messageAppURL) {
             UIApplication.shared.open(messageAppURL)
@@ -57,11 +58,12 @@ class TicketDetailsViewController: UIViewController, UIActionSheetDelegate {
         acceptButton.setTitle(languageUtil.getTranslatedText(translationString: "action.accept"), for: .normal)
         declineButton.setTitle(languageUtil.getTranslatedText(translationString: "action.decline"), for: .normal)
         
-        
-        userNameLabel.text = "\(User.shared.infos?.firstName ?? "Nom du") \(User.shared.infos?.lastName ?? "demandeur")"
-        numberStreetLabel.text = "\(User.shared.infos?.address.number ?? "14") \(User.shared.infos?.address.street ?? "rue des Boulet")"
-        zipCodeCityLabel.text = "\(User.shared.infos?.address.postalCode ?? "75012") \(User.shared.infos?.address.city ?? "Paris")"
-        descriptionTextView.text = "Description du problème rencontré, Description du problème rencontré, Description du problème rencontré, Description du problème rencontré"
+        userNameLabel.text = "\(problem?.owner.firstname ?? "Prénom") \(problem?.owner.lastname ?? "Nom")"
+        numberStreetLabel.text = "\(problem?.owner.firstname ?? "Prénom") \(problem?.owner.lastname ?? "Nom")"
+
+        numberStreetLabel.text = "\(problem?.owner.address ?? "14 rue de toto 75012 Paris")"
+       
+        descriptionTextView.text = problem?.description
     }
 
 

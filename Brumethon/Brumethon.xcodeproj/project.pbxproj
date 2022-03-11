@@ -14,7 +14,6 @@
 		571C95B027DB43DE0025E3F2 /* SetCategoriesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AF27DB43DE0025E3F2 /* SetCategoriesQuery.swift */; };
 		571C95B227DB46360025E3F2 /* setCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95B127DB46360025E3F2 /* setCategoryService.swift */; };
 		571C95B627DB651B0025E3F2 /* ProblemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95B527DB651B0025E3F2 /* ProblemService.swift */; };
-		571C95B827DB70080025E3F2 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95B727DB70080025E3F2 /* Status.swift */; };
 		5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748350D27D93A08001CE3A8 /* AppDelegate.swift */; };
 		5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5748351627D93A0A001CE3A8 /* Assets.xcassets */; };
 		5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748351827D93A0A001CE3A8 /* LaunchScreen.storyboard */; };
@@ -32,6 +31,7 @@
 		5748356627D98571001CE3A8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5748356427D98571001CE3A8 /* MainViewController.xib */; };
 		5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748356827D9EB5F001CE3A8 /* ModalViewController.swift */; };
 		5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5748356927D9EB5F001CE3A8 /* ModalViewController.xib */; };
+		574E44A927DB7E6F00BFA1F7 /* ProblemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E44A827DB7E6F00BFA1F7 /* ProblemQuery.swift */; };
 		5772BF6627DA4EDF00084D94 /* SignUpInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772BF6427DA4EDF00084D94 /* SignUpInformationViewController.swift */; };
 		5772BF6727DA4EDF00084D94 /* SignUpInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5772BF6527DA4EDF00084D94 /* SignUpInformationViewController.xib */; };
 		5772BF6C27DA587A00084D94 /* SignUpAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772BF6A27DA587A00084D94 /* SignUpAddressViewController.swift */; };
@@ -119,6 +119,7 @@
 		5748356427D98571001CE3A8 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		5748356827D9EB5F001CE3A8 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		5748356927D9EB5F001CE3A8 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		574E44A827DB7E6F00BFA1F7 /* ProblemQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemQuery.swift; sourceTree = "<group>"; };
 		5772BF6427DA4EDF00084D94 /* SignUpInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInformationViewController.swift; sourceTree = "<group>"; };
 		5772BF6527DA4EDF00084D94 /* SignUpInformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpInformationViewController.xib; sourceTree = "<group>"; };
 		5772BF6A27DA587A00084D94 /* SignUpAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAddressViewController.swift; sourceTree = "<group>"; };
@@ -240,6 +241,7 @@
 				5748350B27D93A08001CE3A8 /* Products */,
 				025E5BDD33A7D3FB3B24EC82 /* Pods */,
 				6D4CE11BFE5BCF2D431D5EA6 /* Frameworks */,
+				574E44A727DB7E3A00BFA1F7 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -326,6 +328,14 @@
 				5748356427D98571001CE3A8 /* MainViewController.xib */,
 			);
 			path = NavigationViews;
+			sourceTree = "<group>";
+		};
+		574E44A727DB7E3A00BFA1F7 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				571C95B727DB70080025E3F2 /* Status.swift */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 		6D4CE11BFE5BCF2D431D5EA6 /* Frameworks */ = {
@@ -445,6 +455,7 @@
 		BE9A8ED727DA03970007E32A /* Problem */ = {
 			isa = PBXGroup;
 			children = (
+				574E44A827DB7E6F00BFA1F7 /* ProblemQuery.swift */,
 				BE9A8ED827DA03B70007E32A /* CreateProblemQuery.swift */,
 			);
 			path = Problem;
@@ -713,7 +724,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571C95B827DB70080025E3F2 /* Status.swift in Sources */,
 				571C95AD27DB3E320025E3F2 /* SignInService.swift in Sources */,
 				BE9A8EC927D9FE3A0007E32A /* NetworkLogger.swift in Sources */,
 				BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */,
@@ -737,6 +747,7 @@
 				BE9A8ECD27DA00130007E32A /* Problem.swift in Sources */,
 				BE8483C527DA7D020002C0BB /* SignUpLoginInfosViewController.swift in Sources */,
 				BE9A8ED627DA031B0007E32A /* SignInQuery.swift in Sources */,
+				574E44A927DB7E6F00BFA1F7 /* ProblemQuery.swift in Sources */,
 				571C95B627DB651B0025E3F2 /* ProblemService.swift in Sources */,
 				5772BF6627DA4EDF00084D94 /* SignUpInformationViewController.swift in Sources */,
 				BE9A8ECB27D9FF370007E32A /* Address.swift in Sources */,

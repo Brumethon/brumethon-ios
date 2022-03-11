@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="Brumethon" customModuleProvider="target">
             <connections>
                 <outlet property="categoriesListView" destination="kfQ-AX-DHB" id="gND-41-TVe"/>
+                <outlet property="usernameLabel" destination="ms8-ti-BMq" id="bYC-I4-wgH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

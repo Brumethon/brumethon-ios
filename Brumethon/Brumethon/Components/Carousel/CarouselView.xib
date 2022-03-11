@@ -28,8 +28,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adresse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-k6-weM">
-                    <rect key="frame" x="30" y="100" width="52.5" height="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adresse" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-k6-weM">
+                    <rect key="frame" x="30" y="100" width="354" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -58,6 +58,7 @@
                 <constraint firstItem="8WH-k6-weM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="LyY-iG-vWP"/>
                 <constraint firstItem="E84-Ck-Cfj" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="UM1-a6-Vwk"/>
                 <constraint firstItem="8WH-k6-weM" firstAttribute="top" secondItem="E84-Ck-Cfj" secondAttribute="bottom" constant="5" id="WUC-D9-gkb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8WH-k6-weM" secondAttribute="trailing" constant="30" id="jdV-t2-TzB"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6D1-0p-1uF" secondAttribute="trailing" constant="30" id="udg-m0-p2F"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

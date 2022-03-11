@@ -7,10 +7,10 @@
 
 import Alamofire
 
-struct UserInfosResponse: Decodable {
+struct UserInfosResponse: Decodable, Encodable, Equatable {
     var email: String
-    var firstName: String
-    var lastName: String
+    var firstname: String
+    var lastname: String
     var address: String
     var roles: [String]
     var phoneNumber: String

@@ -12,6 +12,7 @@ struct Problem: Encodable,Decodable, Equatable {
     let scooter: Scooter
     let category: Category
     let status: Status
+    let owner : UserInfosResponse
     let name: String
     let description: String
     let latitude: Double
