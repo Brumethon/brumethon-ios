@@ -8,7 +8,9 @@
 import Alamofire
 
 final class UserInfosQuery: Query {
-    struct QueryParameters: Encodable {}
+    struct QueryParameters: Encodable {
+        
+    }
     
     var endpoint: String = "url here"
     var headers: HTTPHeaders? {

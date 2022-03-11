@@ -44,6 +44,10 @@
 		BE8483DC27DAEF8E0002C0BB /* CategoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483DB27DAEF8E0002C0BB /* CategoriesService.swift */; };
 		BE8483DE27DAEFBE0002C0BB /* GetCategoriesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483DD27DAEFBE0002C0BB /* GetCategoriesQuery.swift */; };
 		BE8483E027DAF0240002C0BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483DF27DAF0240002C0BB /* Category.swift */; };
+		BE8483E227DB4C1C0002C0BB /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483E127DB4C1B0002C0BB /* Status.swift */; };
+		BE8483E427DB4D950002C0BB /* CreateProblemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483E327DB4D950002C0BB /* CreateProblemService.swift */; };
+		BE8483E627DB4EDC0002C0BB /* ScooterQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483E527DB4EDC0002C0BB /* ScooterQuery.swift */; };
+		BE8483E827DB503A0002C0BB /* UserQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483E727DB503A0002C0BB /* UserQuery.swift */; };
 		BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB627D9F0D70007E32A /* Documentation.docc */; };
 		BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB927D9F3D90007E32A /* Service.swift */; };
 		BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EBB27D9F4080007E32A /* UserInfos.swift */; };
@@ -55,7 +59,7 @@
 		BE9A8ECF27DA00BC0007E32A /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ECE27DA00BC0007E32A /* Scooter.swift */; };
 		BE9A8ED327DA01A70007E32A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED227DA01A70007E32A /* User.swift */; };
 		BE9A8ED627DA031B0007E32A /* SignInQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED527DA031B0007E32A /* SignInQuery.swift */; };
-		BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */; };
+		BE9A8ED927DA03B70007E32A /* CreateProblemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8ED827DA03B70007E32A /* CreateProblemQuery.swift */; };
 		BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */; };
 		BE9A8EDE27DA047D0007E32A /* BecomeReferentQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */; };
 /* End PBXBuildFile section */
@@ -125,6 +129,10 @@
 		BE8483DB27DAEF8E0002C0BB /* CategoriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesService.swift; sourceTree = "<group>"; };
 		BE8483DD27DAEFBE0002C0BB /* GetCategoriesQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoriesQuery.swift; sourceTree = "<group>"; };
 		BE8483DF27DAF0240002C0BB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BE8483E127DB4C1B0002C0BB /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		BE8483E327DB4D950002C0BB /* CreateProblemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProblemService.swift; sourceTree = "<group>"; };
+		BE8483E527DB4EDC0002C0BB /* ScooterQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterQuery.swift; sourceTree = "<group>"; };
+		BE8483E727DB503A0002C0BB /* UserQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserQuery.swift; sourceTree = "<group>"; };
 		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
@@ -136,7 +144,7 @@
 		BE9A8ECE27DA00BC0007E32A /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
 		BE9A8ED227DA01A70007E32A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BE9A8ED527DA031B0007E32A /* SignInQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInQuery.swift; sourceTree = "<group>"; };
-		BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemQuery.swift; sourceTree = "<group>"; };
+		BE9A8ED827DA03B70007E32A /* CreateProblemQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProblemQuery.swift; sourceTree = "<group>"; };
 		BE9A8EDB27DA04160007E32A /* UserInfosQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfosQuery.swift; sourceTree = "<group>"; };
 		BE9A8EDD27DA047D0007E32A /* BecomeReferentQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BecomeReferentQuery.swift; sourceTree = "<group>"; };
 		DCA04383FD441A07A80D7BF3 /* Pods-BrumethonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrumethonTests.debug.xcconfig"; path = "Target Support Files/Pods-BrumethonTests/Pods-BrumethonTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -350,6 +358,7 @@
 				BE9A8ECC27DA00130007E32A /* Problem.swift */,
 				BE9A8ECE27DA00BC0007E32A /* Scooter.swift */,
 				BE8483DF27DAF0240002C0BB /* Category.swift */,
+				BE8483E127DB4C1B0002C0BB /* Status.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -372,6 +381,7 @@
 				BE9A8EB927D9F3D90007E32A /* Service.swift */,
 				BE8483D827DAE8400002C0BB /* Authentication */,
 				BE8483DB27DAEF8E0002C0BB /* CategoriesService.swift */,
+				BE8483E327DB4D950002C0BB /* CreateProblemService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -392,6 +402,8 @@
 				BE9A8ED427DA03100007E32A /* Authentication */,
 				BE9A8EDA27DA04030007E32A /* User */,
 				BE9A8ED727DA03970007E32A /* Problem */,
+				BE8483E527DB4EDC0002C0BB /* ScooterQuery.swift */,
+				BE8483E727DB503A0002C0BB /* UserQuery.swift */,
 			);
 			path = Queries;
 			sourceTree = "<group>";
@@ -408,7 +420,7 @@
 		BE9A8ED727DA03970007E32A /* Problem */ = {
 			isa = PBXGroup;
 			children = (
-				BE9A8ED827DA03B70007E32A /* ProblemQuery.swift */,
+				BE9A8ED827DA03B70007E32A /* CreateProblemQuery.swift */,
 			);
 			path = Problem;
 			sourceTree = "<group>";
@@ -689,8 +701,9 @@
 				5748356127D9808F001CE3A8 /* ProfileViewController.swift in Sources */,
 				BE9A8EDE27DA047D0007E32A /* BecomeReferentQuery.swift in Sources */,
 				5748355B27D96981001CE3A8 /* languageUtil.swift in Sources */,
+				BE8483E427DB4D950002C0BB /* CreateProblemService.swift in Sources */,
 				BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */,
-				BE9A8ED927DA03B70007E32A /* ProblemQuery.swift in Sources */,
+				BE9A8ED927DA03B70007E32A /* CreateProblemQuery.swift in Sources */,
 				BE8483C927DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift in Sources */,
 				BE9A8EC727D9FCFB0007E32A /* Query.swift in Sources */,
 				BE9A8ECD27DA00130007E32A /* Problem.swift in Sources */,
@@ -698,10 +711,13 @@
 				BE9A8ED627DA031B0007E32A /* SignInQuery.swift in Sources */,
 				5772BF6627DA4EDF00084D94 /* SignUpInformationViewController.swift in Sources */,
 				BE9A8ECB27D9FF370007E32A /* Address.swift in Sources */,
+				BE8483E827DB503A0002C0BB /* UserQuery.swift in Sources */,
 				BE9A8ECF27DA00BC0007E32A /* Scooter.swift in Sources */,
 				5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */,
 				5748355D27D96F6B001CE3A8 /* styleUtil.swift in Sources */,
 				5748355827D9615B001CE3A8 /* SignInViewController.swift in Sources */,
+				BE8483E627DB4EDC0002C0BB /* ScooterQuery.swift in Sources */,
+				BE8483E227DB4C1C0002C0BB /* Status.swift in Sources */,
 				BE8483CF27DAB8AB0002C0BB /* TicketDetailsViewController.swift in Sources */,
 				BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */,
 				5772BF6C27DA587A00084D94 /* SignUpAddressViewController.swift in Sources */,
