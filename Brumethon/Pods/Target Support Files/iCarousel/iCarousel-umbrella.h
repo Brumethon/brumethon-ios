@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "iCarousel.h"
 
-FOUNDATION_EXPORT double DropDownVersionNumber;
-FOUNDATION_EXPORT const unsigned char DropDownVersionString[];
+FOUNDATION_EXPORT double iCarouselVersionNumber;
+FOUNDATION_EXPORT const unsigned char iCarouselVersionString[];
 

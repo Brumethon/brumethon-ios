@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DropDown
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,10 +22,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-    
-    func applicationDidFinishLaunching(_ application: UIApplication) {
-        DropDown.startListeningToKeyboard()
-    }
-
 }
 
