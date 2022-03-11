@@ -97,11 +97,31 @@ class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
             
             switch result {
             case .success(_):
+                self.signIn(email: self.emailTextField.text!, password: self.passwordTextField.text!)
                 self.navigationController?.pushViewController(SignUpChooseCategoriesViewController(), animated: true)
             case .failure(let error):
                 print(error)
                 //self.toggleError(withMessage: error.localizedDescription)
             }
+        }
+    }
+    
+    func signIn(email : String, password : String){
+        let parameters = SignInQuery.QueryParameters(email: email, password: password)
+        let signInService = SignInService(query: SignInQuery(parameters: parameters))
+        
+        signInService.query { result in
+            switch result {
+                        case .success(let token):
+                            User.shared.token = token.token
+                            let vc            = SignUpChooseCategoriesViewController()
+                            vc.email          = email
+                            
+                            self.navigationController?.pushViewController(vc, animated: true)
+                        case .failure(let error):
+                            print(error)
+                            //self.toggleError(withMessage: error.localizedDescription)
+                        }
         }
     }
 

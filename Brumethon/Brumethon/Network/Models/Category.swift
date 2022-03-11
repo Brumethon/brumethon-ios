@@ -9,4 +9,5 @@ import Foundation
 
 struct Category: Encodable, Decodable, Equatable {
     let name: String
+    let id: Int
 }

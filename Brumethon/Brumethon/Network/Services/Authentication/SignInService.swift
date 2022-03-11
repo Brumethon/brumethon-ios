@@ -11,7 +11,7 @@ struct SignInResult : Decodable {
     var token : String
 }
 
-final class SignInService: Service<SignInQuery, SignInResult> {
+final class SignInService: Service<SignInQuery, SignInResult> {    
     override init(query: SignInQuery) {
         super.init(query: query)
     }
