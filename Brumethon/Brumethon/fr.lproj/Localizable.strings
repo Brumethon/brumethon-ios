@@ -50,3 +50,10 @@
 //-------------------- MODAL --------------------//
 "modal.describe"      = "Décrivez votre problème.";
 "modal.current_pos"   = "Position actuelle";
+
+"ticket.close_confirmation" = "Clôturer le ticket ?";
+"action.cancel"      = "Annuler";
+"action.confirm"      = "Confirmer";
+"action.delete"      = "Supprimer";
+"action.close"      = "Clôturer";
+"action.close_ticket"  = "Clôturer le ticket";

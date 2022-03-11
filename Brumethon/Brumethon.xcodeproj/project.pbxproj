@@ -35,6 +35,8 @@
 		BE8483C627DA7D020002C0BB /* SignUpLoginInfosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */; };
 		BE8483C927DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483C727DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift */; };
 		BE8483CA27DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483C827DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib */; };
+		BE8483CF27DAB8AB0002C0BB /* TicketDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483CD27DAB8AB0002C0BB /* TicketDetailsViewController.swift */; };
+		BE8483D027DAB8AB0002C0BB /* TicketDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483CE27DAB8AB0002C0BB /* TicketDetailsViewController.xib */; };
 		BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB627D9F0D70007E32A /* Documentation.docc */; };
 		BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB927D9F3D90007E32A /* Service.swift */; };
 		BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EBB27D9F4080007E32A /* UserInfos.swift */; };
@@ -107,6 +109,8 @@
 		BE8483C427DA7D020002C0BB /* SignUpLoginInfosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpLoginInfosViewController.xib; sourceTree = "<group>"; };
 		BE8483C727DA8C590002C0BB /* SignUpChooseCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpChooseCategoriesViewController.swift; sourceTree = "<group>"; };
 		BE8483C827DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpChooseCategoriesViewController.xib; sourceTree = "<group>"; };
+		BE8483CD27DAB8AB0002C0BB /* TicketDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsViewController.swift; sourceTree = "<group>"; };
+		BE8483CE27DAB8AB0002C0BB /* TicketDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketDetailsViewController.xib; sourceTree = "<group>"; };
 		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
@@ -242,11 +246,12 @@
 		5748355E27D97B23001CE3A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BE8483B427DA5CD30002C0BB /* Carousel */,
 				5748356727D98579001CE3A8 /* NavigationViews */,
 				5748355127D955E1001CE3A8 /* Authentication */,
 				5748356827D9EB5F001CE3A8 /* ModalViewController.swift */,
 				5748356927D9EB5F001CE3A8 /* ModalViewController.xib */,
+				BE8483CD27DAB8AB0002C0BB /* TicketDetailsViewController.swift */,
+				BE8483CE27DAB8AB0002C0BB /* TicketDetailsViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -495,6 +500,7 @@
 				5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */,
 				BE8483C627DA7D020002C0BB /* SignUpLoginInfosViewController.xib in Resources */,
 				5748356627D98571001CE3A8 /* MainViewController.xib in Resources */,
+				BE8483D027DAB8AB0002C0BB /* TicketDetailsViewController.xib in Resources */,
 				5772BF6D27DA587A00084D94 /* SignUpAddressViewController.xib in Resources */,
 				5772BF6727DA4EDF00084D94 /* SignUpInformationViewController.xib in Resources */,
 			);
@@ -625,7 +631,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9A8EC927D9FE3A0007E32A /* NetworkLogger.swift in Sources */,
-				BE8483B627DA5CFC0002C0BB /* TicketCell.swift in Sources */,
 				BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */,
 				5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */,
 				5748356527D98571001CE3A8 /* MainViewController.swift in Sources */,
@@ -646,6 +651,7 @@
 				5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */,
 				5748355D27D96F6B001CE3A8 /* styleUtil.swift in Sources */,
 				5748355827D9615B001CE3A8 /* SignInViewController.swift in Sources */,
+				BE8483CF27DAB8AB0002C0BB /* TicketDetailsViewController.swift in Sources */,
 				BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */,
 				5772BF6C27DA587A00084D94 /* SignUpAddressViewController.swift in Sources */,
 				BE9A8ED327DA01A70007E32A /* User.swift in Sources */,

@@ -52,3 +52,12 @@
 //-------------------- MODAL --------------------//
 "modal.describe"      = "Describe your problem.";
 "modal.current_pos"   = "Current position";
+
+//
+
+"ticket.close_confirmation" = "Close ticket?";
+"action.cancel"      = "Cancel";
+"action.confirm"      = "Confirm";
+"action.delete"      = "Delete";
+"action.close"      = "Close";
+"action.close_ticket"  = "Close ticket";
