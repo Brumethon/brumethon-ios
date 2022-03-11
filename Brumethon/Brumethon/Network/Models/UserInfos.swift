@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct UserInfos: Decodable, Equatable {
+struct UserInfos: Encodable, Decodable, Equatable {
     let id: Int
     let mail: String
     let password: String

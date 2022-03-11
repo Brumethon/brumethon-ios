@@ -23,10 +23,10 @@ class Service<Q: Query, CleanedOutput>: ObservableObject where CleanedOutput: De
         isLoading.toggle()
         
         let encoder = JSONEncoder()
-        if shouldConvertParametersToSnakeCase {
-            encoder.keyEncodingStrategy = .convertToSnakeCase
-        }
-        
+//        if shouldConvertParametersToSnakeCase {
+//            encoder.keyEncodingStrategy = .convertToSnakeCase
+//        }
+//
         AF.request(query.url,
                    method: query.method,
                    parameters: query.parameters,
@@ -35,9 +35,10 @@ class Service<Q: Query, CleanedOutput>: ObservableObject where CleanedOutput: De
             .validate()
             .responseData { response in
                 self.isLoading.toggle()
-                
+
                 switch response.result {
                 case .success(let data):
+
                     guard let cleanedData = self.decode(from: data) else {
                         NetworkLogger.log(url: self.query.url, method: self.query.method, status: .failure(.other))
                         return completion(.failure(.other))
@@ -47,6 +48,7 @@ class Service<Q: Query, CleanedOutput>: ObservableObject where CleanedOutput: De
                     
                     return completion(.success(cleanedData))
                 case .failure(let error):
+                    print("toto \(error)")
                     NetworkLogger.log(url: self.query.url, method: self.query.method, status: .failure(ServiceError(fromCode: error.responseCode)))
                     
                     return completion(.failure(ServiceError(fromCode: error.responseCode)))

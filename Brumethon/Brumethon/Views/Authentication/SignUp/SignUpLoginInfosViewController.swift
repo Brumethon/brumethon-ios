@@ -25,6 +25,7 @@ class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var createAccountButton: UIButton!
     
+
     @IBAction func handleCreateAccount(_ sender: Any) {
         if emailTextField.text!.isEmpty || passwordTextField.text!.isEmpty {
             let errorDialog = UIAlertController(title: "", message: languageUtil.getTranslatedText(translationString: "error.missing_field"), preferredStyle: .alert)
@@ -33,7 +34,7 @@ class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
                 self.dismiss(animated: true, completion: nil)
             }
         } else {
-            self.navigationController?.pushViewController(SignUpChooseCategoriesViewController(), animated: true)
+            createAccount()
         }
     }
     
@@ -87,5 +88,21 @@ class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
 
 
 
+    func createAccount() {
+        let parameters = SignUpQuery.QueryParameters(email: emailTextField.text!, lastname: lastName!, firstname: firstName!, password: passwordTextField.text!, phoneNumber: phoneNumber!, address: Address(id: 0, city: city!, street: street!, number: addressNumber!, country: "France", postalCode: zipCode!, lagitude: 0, longitude: 0))
+        let signUpService = SignUpService(query: SignUpQuery(parameters: parameters))
+        
+        signUpService.query { result in
+            //self.toggleLoading()
+            
+            switch result {
+            case .success(_):
+                self.navigationController?.pushViewController(SignUpChooseCategoriesViewController(), animated: true)
+            case .failure(let error):
+                print(error)
+                //self.toggleError(withMessage: error.localizedDescription)
+            }
+        }
+    }
 
 }

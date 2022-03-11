@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Address: Decodable, Equatable {
+struct Address: Encodable, Decodable, Equatable {
     let id: Int
     let city: String
     let street: String
