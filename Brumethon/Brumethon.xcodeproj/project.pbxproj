@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		56C560E6953A4514DB799D72 /* Pods_Brumethon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */; };
+		571C95A927DAD2450025E3F2 /* CarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571C95A827DAD2450025E3F2 /* CarouselView.xib */; };
+		571C95AB27DAD75E0025E3F2 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AA27DAD75E0025E3F2 /* CarouselView.swift */; };
 		5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748350D27D93A08001CE3A8 /* AppDelegate.swift */; };
 		5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5748351627D93A0A001CE3A8 /* Assets.xcassets */; };
 		5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748351827D93A0A001CE3A8 /* LaunchScreen.storyboard */; };
@@ -66,6 +68,8 @@
 
 /* Begin PBXFileReference section */
 		1F143D5E79CEFC158C154CE2 /* Pods-Brumethon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon.debug.xcconfig"; path = "Target Support Files/Pods-Brumethon/Pods-Brumethon.debug.xcconfig"; sourceTree = "<group>"; };
+		571C95A827DAD2450025E3F2 /* CarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselView.xib; sourceTree = "<group>"; };
+		571C95AA27DAD75E0025E3F2 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		5748350A27D93A08001CE3A8 /* Brumethon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brumethon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5748350D27D93A08001CE3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5748351627D93A0A001CE3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 		5726F1C427DA763A00AED016 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				571C95A827DAD2450025E3F2 /* CarouselView.xib */,
+				571C95AA27DAD75E0025E3F2 /* CarouselView.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -477,6 +483,7 @@
 				5748355927D9615B001CE3A8 /* SignInViewController.xib in Resources */,
 				5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */,
 				5748354927D9414E001CE3A8 /* Localizable.strings in Resources */,
+				571C95A927DAD2450025E3F2 /* CarouselView.xib in Resources */,
 				5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */,
 				5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */,
 				5748356627D98571001CE3A8 /* MainViewController.xib in Resources */,
@@ -631,6 +638,7 @@
 				BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */,
 				5772BF6C27DA587A00084D94 /* SignUpCategoriesAndLocationViewController.swift in Sources */,
 				BE9A8ED327DA01A70007E32A /* User.swift in Sources */,
+				571C95AB27DAD75E0025E3F2 /* CarouselView.swift in Sources */,
 				BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

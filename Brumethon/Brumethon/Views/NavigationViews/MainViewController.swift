@@ -50,12 +50,14 @@ class MainViewController: UIViewController, iCarouselDataSource {
     }
     
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: self.containerView.frame.width, height: self.containerView.frame.height))
         
-        view.layer.cornerRadius = 10
-        view.layer.borderWidth = 0.5
-        view.layer.borderColor = UIColor.black.cgColor
-        view.backgroundColor = .white
+        let view = CarouselView(frame: CGRect(x: 0, y: 0, width: self.containerView.frame.size.width, height: self.containerView.frame.size.height))
+        
+        
+        
+        
+        
+        
         
         
         return view
