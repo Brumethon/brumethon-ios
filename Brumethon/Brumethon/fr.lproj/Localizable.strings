@@ -29,6 +29,8 @@
 //-------------------- SIGN IN --------------------//
 "sign_in.sign_in" = "Se connecter";
 "sign_in.sign_in_infos" = "Informations de connexion";
+"sign_in.no_account" = "Pas de compte? Rejoins-nous.";
+
 //-------------------- SIGN UP INFORMATIONS --------------------//
 //-------------------- SIGN UP INFORMATIONS --------------------//
 "sign_up.already_have_acc" = "Déja un compte ? Connectez-vous !";

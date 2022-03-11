@@ -29,7 +29,7 @@
 //-------------------- SIGN IN --------------------//
 "sign_in.sign_in" = "Sign-in";
 "sign_in.sign_in_infos" = "Sign-in informations";
-
+"sign_in.no_account" = "No account? Sign-up.";
 
 //-------------------- SIGN UP INFORMATIONS --------------------//
 "sign_up.already_have_acc" = "Already member? Sign in!";

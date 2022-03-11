@@ -16,13 +16,20 @@ class SignInViewController: UIViewController {
     //Buttons[]
     @IBOutlet weak var signInButton: UIButton!
     
+    @IBOutlet weak var noAccountButton: UIButton!
+    
+    @IBAction func handleNoAccount(_ sender: Any) {
+        
+        self.navigationController?.pushViewController(SignUpInformationViewController(), animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBar.isHidden = true
         //Set right placeholders on textfields
         self.loginTextfield.placeholder = languageUtil.getTranslatedText(translationString: "email")
         self.passwordTextfield.placeholder = languageUtil.getTranslatedText(translationString: "password")
-        
+        self.noAccountButton.setTitle(languageUtil.getTranslatedText(translationString: "sign_in.no_account"), for: .normal)
         self.loginTextfield.delegate    = self
         self.passwordTextfield.delegate = self
         
