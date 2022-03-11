@@ -21,7 +21,7 @@ class SignUpInformationViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         //Set placeholders
         self.firstNameTextField.placeholder = languageUtil.getTranslatedText(translationString: "firstname")
         self.lastNameTextField.placeholder  = languageUtil.getTranslatedText(translationString: "lastname")

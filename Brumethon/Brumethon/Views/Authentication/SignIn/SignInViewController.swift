@@ -71,8 +71,23 @@ class SignInViewController: UIViewController {
             return
         }
         
-        //At last if every tests passed
-        self.navigationController?.pushViewController(MainViewController(), animated: true)
+        signIn(email: loginValue, password: passwordValue)
+    }
+    
+    func signIn(email : String, password : String){
+        let parameters = SignInQuery.QueryParameters(email: email, password: password)
+        let signInService = SignInService(query: SignInQuery(parameters: parameters))
+        
+        signInService.query { result in
+            switch result {
+                        case .success(let token):
+                            User.shared.token = token.token
+                            self.navigationController?.pushViewController(MainViewController(), animated: true)
+                        case .failure(let error):
+                            print(error)
+                            //self.toggleError(withMessage: error.localizedDescription)
+                        }
+        }
     }
     
 }

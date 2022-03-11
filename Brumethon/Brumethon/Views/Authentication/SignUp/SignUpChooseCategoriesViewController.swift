@@ -11,6 +11,8 @@ import TagListView
 class SignUpChooseCategoriesViewController: UIViewController, TagListViewDelegate {
     
     let primaryColor = UIColor(named: "Primary Color")
+    var selectedCategories: [Int] = []
+    var email : String!
         
     @IBOutlet weak var chooseCategoriesTitle: UILabel!
     @IBOutlet weak var categoriesListView: TagListView!
@@ -18,13 +20,17 @@ class SignUpChooseCategoriesViewController: UIViewController, TagListViewDelegat
     
    
     @IBAction func handleSetCategories(_ sender: Any) {
-        var selectedCategories: [String] = []
-        for tagView in categoriesListView.tagViews {
-            if tagView.tagBackgroundColor == primaryColor {
-                selectedCategories.append(tagView.currentTitle!)
+       
+        /*for tagView in categoriesListView.tagViews {
+            if tagView.tagBackgroundColor != primaryColor {
+                
+                //selectedCategories.remove(at: i)
+                tagView.
+                
             }
-        }
-        print(selectedCategories)
+            i+=1
+        }*/
+        self.setCategories(category: selectedCategories)
     }
     
     override func viewDidLoad() {
@@ -81,11 +87,27 @@ class SignUpChooseCategoriesViewController: UIViewController, TagListViewDelegat
             case .success(let categories):
                 for category in categories {
                     self.categoriesListView.addTag(category.name)
+                    self.selectedCategories.append(category.id)
                 }
                 self.setTagStyle()
             case .failure(let error):
                     print(error.localizedDescription)
             }
+        }
+    }
+    
+    func setCategories(category : [Int]){
+        let parameters = SetCategoriesQuery.QueryParameters(list: category)
+        let categoriesService = setCategoriesService(query: SetCategoriesQuery(parameters: parameters, email: self.email))
+        
+        categoriesService.query { result in
+            switch result {
+                        case .success(_):
+                            print("Successfully added")
+                        case .failure(let error):
+                            print(error)
+                            //self.toggleError(withMessage: error.localizedDescription)
+                        }
         }
     }
 

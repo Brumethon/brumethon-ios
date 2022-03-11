@@ -10,6 +10,9 @@
 		56C560E6953A4514DB799D72 /* Pods_Brumethon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */; };
 		571C95A927DAD2450025E3F2 /* CarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571C95A827DAD2450025E3F2 /* CarouselView.xib */; };
 		571C95AB27DAD75E0025E3F2 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AA27DAD75E0025E3F2 /* CarouselView.swift */; };
+		571C95AD27DB3E320025E3F2 /* SignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AC27DB3E320025E3F2 /* SignInService.swift */; };
+		571C95B027DB43DE0025E3F2 /* SetCategoriesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AF27DB43DE0025E3F2 /* SetCategoriesQuery.swift */; };
+		571C95B227DB46360025E3F2 /* setCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95B127DB46360025E3F2 /* setCategoryService.swift */; };
 		5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748350D27D93A08001CE3A8 /* AppDelegate.swift */; };
 		5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5748351627D93A0A001CE3A8 /* Assets.xcassets */; };
 		5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748351827D93A0A001CE3A8 /* LaunchScreen.storyboard */; };
@@ -85,6 +88,9 @@
 		1F143D5E79CEFC158C154CE2 /* Pods-Brumethon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon.debug.xcconfig"; path = "Target Support Files/Pods-Brumethon/Pods-Brumethon.debug.xcconfig"; sourceTree = "<group>"; };
 		571C95A827DAD2450025E3F2 /* CarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselView.xib; sourceTree = "<group>"; };
 		571C95AA27DAD75E0025E3F2 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		571C95AC27DB3E320025E3F2 /* SignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInService.swift; sourceTree = "<group>"; };
+		571C95AF27DB43DE0025E3F2 /* SetCategoriesQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCategoriesQuery.swift; sourceTree = "<group>"; };
+		571C95B127DB46360025E3F2 /* setCategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setCategoryService.swift; sourceTree = "<group>"; };
 		5748350A27D93A08001CE3A8 /* Brumethon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brumethon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5748350D27D93A08001CE3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5748351627D93A0A001CE3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,6 +196,15 @@
 				6C38A8810FD0AF98140FBF86 /* Pods-BrumethonTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		571C95AE27DB43C70025E3F2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BE8483DD27DAEFBE0002C0BB /* GetCategoriesQuery.swift */,
+				571C95AF27DB43DE0025E3F2 /* SetCategoriesQuery.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		5726F1C327DA763200AED016 /* Components */ = {
@@ -345,6 +360,7 @@
 			isa = PBXGroup;
 			children = (
 				BE8483D927DAE84F0002C0BB /* SignUpService.swift */,
+				571C95AC27DB3E320025E3F2 /* SignInService.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -382,6 +398,7 @@
 				BE8483D827DAE8400002C0BB /* Authentication */,
 				BE8483DB27DAEF8E0002C0BB /* CategoriesService.swift */,
 				BE8483E327DB4D950002C0BB /* CreateProblemService.swift */,
+				571C95B127DB46360025E3F2 /* setCategoryService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -397,8 +414,8 @@
 		BE9A8EC527D9FCEE0007E32A /* Queries */ = {
 			isa = PBXGroup;
 			children = (
+				571C95AE27DB43C70025E3F2 /* Categories */,
 				BE9A8EC627D9FCFB0007E32A /* Query.swift */,
-				BE8483DD27DAEFBE0002C0BB /* GetCategoriesQuery.swift */,
 				BE9A8ED427DA03100007E32A /* Authentication */,
 				BE9A8EDA27DA04030007E32A /* User */,
 				BE9A8ED727DA03970007E32A /* Problem */,
@@ -688,6 +705,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571C95AD27DB3E320025E3F2 /* SignInService.swift in Sources */,
 				BE9A8EC927D9FE3A0007E32A /* NetworkLogger.swift in Sources */,
 				BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */,
 				5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */,
@@ -712,6 +730,7 @@
 				5772BF6627DA4EDF00084D94 /* SignUpInformationViewController.swift in Sources */,
 				BE9A8ECB27D9FF370007E32A /* Address.swift in Sources */,
 				BE8483E827DB503A0002C0BB /* UserQuery.swift in Sources */,
+				571C95B027DB43DE0025E3F2 /* SetCategoriesQuery.swift in Sources */,
 				BE9A8ECF27DA00BC0007E32A /* Scooter.swift in Sources */,
 				5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */,
 				5748355D27D96F6B001CE3A8 /* styleUtil.swift in Sources */,
@@ -721,6 +740,7 @@
 				BE8483CF27DAB8AB0002C0BB /* TicketDetailsViewController.swift in Sources */,
 				BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */,
 				5772BF6C27DA587A00084D94 /* SignUpAddressViewController.swift in Sources */,
+				571C95B227DB46360025E3F2 /* setCategoryService.swift in Sources */,
 				BE9A8ED327DA01A70007E32A /* User.swift in Sources */,
 				571C95AB27DAD75E0025E3F2 /* CarouselView.swift in Sources */,
 				BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */,
