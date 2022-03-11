@@ -9,13 +9,14 @@ import Foundation
 import UIKit
 
 struct UserInfos: Encodable, Decodable, Equatable {
-    let id: Int
-    let mail: String
-    let password: String
-    let firstName: String
-    let lastName: String
-    let registerDate: Date
-    let address: Address
-    let roles: [String]
+    var id: Int
+    var mail: String
+    var password: String
+    var firstName: String
+    var lastName: String
+    var registerDate: Date
+    var phoneNumber: String
+    var address: Address
+    var roles: [String]
 }
 

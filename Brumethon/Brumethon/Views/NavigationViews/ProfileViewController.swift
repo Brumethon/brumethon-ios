@@ -17,7 +17,7 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        categoriesListView.addTags(["Toto", "Tata", "Tutu"])
+        categoriesListView.addTags(["Moteur", "Roues", "Jantes"])
         categoriesListView.textFont = UIFont.systemFont(ofSize: 18)
 
         for tagView in categoriesListView.tagViews {

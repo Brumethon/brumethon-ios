@@ -23,5 +23,6 @@ class User: ObservableObject {
     }
     var infos: UserInfos?
     
+    
     @Published var isAuthenticated: Bool = false
 }

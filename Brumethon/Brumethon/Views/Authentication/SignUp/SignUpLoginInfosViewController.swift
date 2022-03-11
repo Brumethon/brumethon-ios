@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
     var firstName: String?
@@ -100,8 +101,8 @@ class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
                 self.signIn(email: self.emailTextField.text!, password: self.passwordTextField.text!)
                 self.navigationController?.pushViewController(SignUpChooseCategoriesViewController(), animated: true)
             case .failure(let error):
-                print(error)
-                //self.toggleError(withMessage: error.localizedDescription)
+                self.signIn(email: self.emailTextField.text!, password: self.passwordTextField.text!)
+                self.navigationController?.pushViewController(SignUpChooseCategoriesViewController(), animated: true)
             }
         }
     }
@@ -112,16 +113,19 @@ class SignUpLoginInfosViewController: UIViewController, UITextFieldDelegate {
         
         signInService.query { result in
             switch result {
-                        case .success(let token):
-                            User.shared.token = token.token
-                            let vc            = SignUpChooseCategoriesViewController()
-                            vc.email          = email
-                            
-                            self.navigationController?.pushViewController(vc, animated: true)
-                        case .failure(let error):
-                            print(error)
-                            //self.toggleError(withMessage: error.localizedDescription)
-                        }
+                case .success(let result):
+                    print(result)
+                    User.shared.token = result.token
+                    User.shared.infos?.mail = email
+                    let vc            = SignUpChooseCategoriesViewController()
+                    UserDefaults.standard.setValue(email, forKey: "email")
+                    vc.email          = email
+                    
+                    self.navigationController?.pushViewController(vc, animated: true)
+                case .failure(let error):
+                    print(error)
+                    //self.toggleError(withMessage: error.localizedDescription)
+                }
         }
     }
 

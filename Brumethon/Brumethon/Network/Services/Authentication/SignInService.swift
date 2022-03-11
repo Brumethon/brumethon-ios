@@ -8,7 +8,7 @@
 import Foundation
 
 struct SignInResult : Decodable {
-    var token : String
+    var token: String
 }
 
 final class SignInService: Service<SignInQuery, SignInResult> {    

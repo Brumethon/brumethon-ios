@@ -15,13 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let window = UIWindow(frame: UIScreen.main.bounds) //Taille window == taille écran
-        window.rootViewController = UINavigationController(rootViewController : UserDefaults.standard.string(forKey: "token") != nil ? SignUpChooseCategoriesViewController() : SignUpInformationViewController())
+        
+        if UserDefaults.standard.string(forKey: "token") != nil {
+            window.rootViewController = UINavigationController(rootViewController :MainViewController())
+        } else {
+            window.rootViewController = UINavigationController(rootViewController: SignUpInformationViewController())
+        }
+       
         window.makeKeyAndVisible()
         self.window = window
-        
-        
+                
         
         return true
     }
+    
 }
 

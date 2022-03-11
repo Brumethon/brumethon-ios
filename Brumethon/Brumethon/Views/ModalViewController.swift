@@ -129,11 +129,12 @@ class ModalViewController: UIViewController, TagListViewDelegate, UITextViewDele
         
         createProblemService.query { result in
             //self.toggleLoading()
-            
+            print(result)
             switch result {
             case .success(_):
                 self.dismiss(animated: true, completion: nil)
             case .failure(let error):
+                self.dismiss(animated: true, completion: nil)
                 print(error)
                 //self.toggleError(withMessage: error.localizedDescription)
             }

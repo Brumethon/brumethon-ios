@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,10 +12,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarouselView" customModule="Brumethon" customModuleProvider="target">
             <connections>
                 <outlet property="addressLabel" destination="8WH-k6-weM" id="E2I-L2-xSC"/>
-                <outlet property="confirmButton" destination="yX7-gj-hfa" id="1M4-Hb-YKI"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="ijX-ky-aMf"/>
                 <outlet property="messageTextPicker" destination="6D1-0p-1uF" id="2Ge-vI-WbF"/>
-                <outlet property="refuseButton" destination="ojA-o6-geJ" id="299-sx-XOH"/>
                 <outlet property="userNameLabel" destination="E84-Ck-Cfj" id="GGB-Qf-rpa"/>
             </connections>
         </placeholder>
@@ -25,8 +22,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nom du gars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E84-Ck-Cfj">
-                    <rect key="frame" x="30" y="74" width="98" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nom du demandeur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E84-Ck-Cfj">
+                    <rect key="frame" x="30" y="74" width="152" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -46,27 +43,11 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="150" id="rW9-10-GpD"/>
                     </constraints>
-                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <string key="text">Description du problème rencontré, Description du problème rencontré, Description du problème rencontré, Description du problème rencontré</string>
                     <color key="textColor" systemColor="labelColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojA-o6-geJ">
-                    <rect key="frame" x="40" y="327" width="45" height="31"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" image="xmark.circle" catalog="system">
-                        <color key="baseForegroundColor" systemColor="systemRedColor"/>
-                    </buttonConfiguration>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yX7-gj-hfa">
-                    <rect key="frame" x="329" y="327" width="45" height="31"/>
-                    <inset key="imageEdgeInsets" minX="20" minY="20" maxX="2" maxY="20"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain">
-                        <imageReference key="image" image="checkmark.circle" catalog="system" symbolScale="large"/>
-                        <color key="baseForegroundColor" systemColor="systemGreenColor"/>
-                    </buttonConfiguration>
-                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -74,13 +55,9 @@
                 <constraint firstItem="6D1-0p-1uF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="3sC-Y6-pio"/>
                 <constraint firstItem="E84-Ck-Cfj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="B1n-dM-i65"/>
                 <constraint firstItem="6D1-0p-1uF" firstAttribute="top" secondItem="8WH-k6-weM" secondAttribute="bottom" constant="30" id="Bce-9K-PLC"/>
-                <constraint firstItem="ojA-o6-geJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="Cff-7M-WwZ"/>
                 <constraint firstItem="8WH-k6-weM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="LyY-iG-vWP"/>
-                <constraint firstItem="yX7-gj-hfa" firstAttribute="top" secondItem="6D1-0p-1uF" secondAttribute="bottom" constant="30" id="SSn-Ug-PYI"/>
                 <constraint firstItem="E84-Ck-Cfj" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="UM1-a6-Vwk"/>
                 <constraint firstItem="8WH-k6-weM" firstAttribute="top" secondItem="E84-Ck-Cfj" secondAttribute="bottom" constant="5" id="WUC-D9-gkb"/>
-                <constraint firstItem="ojA-o6-geJ" firstAttribute="top" secondItem="6D1-0p-1uF" secondAttribute="bottom" constant="30" id="cD7-5W-wcd"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yX7-gj-hfa" secondAttribute="trailing" constant="40" id="oB5-gl-94o"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6D1-0p-1uF" secondAttribute="trailing" constant="30" id="udg-m0-p2F"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -88,19 +65,11 @@
         </view>
     </objects>
     <resources>
-        <image name="checkmark.circle" catalog="system" width="128" height="121"/>
-        <image name="xmark.circle" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

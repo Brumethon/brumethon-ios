@@ -8,12 +8,12 @@
 import Foundation
 
 struct Address: Encodable, Decodable, Equatable {
-    let id: Int
-    let city: String
-    let street: String
-    let number: String
-    let country: String
-    let postalCode: String
-    let lagitude: Double
-    let longitude: Double
+    var id: Int
+    var city: String
+    var street: String
+    var number: String
+    var country: String
+    var postalCode: String
+    var lagitude: Double
+    var longitude: Double
 }

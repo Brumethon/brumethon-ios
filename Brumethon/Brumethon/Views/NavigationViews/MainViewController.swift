@@ -32,6 +32,7 @@ class MainViewController: UIViewController, iCarouselDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        getUsersInfos()
 
         
         let profileIcon = UIBarButtonItem(
@@ -67,16 +68,42 @@ class MainViewController: UIViewController, iCarouselDataSource {
         return 10
     }
     
-    @objc func handleConfirmButton(index: Int) {
-        print(index)
+    @objc func handleConfirmButton() {
+        self.navigationController?.present(TicketDetailsViewController(), animated: true)
+       
     }
+    
     
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
         
         let view = CarouselView(frame: CGRect(x: 0, y: 0, width: self.containerView.frame.size.width, height: self.containerView.frame.size.height))
-        view.confirmButton.addTarget(self, action: #selector(handleConfirmButton(index:)), for: .touchUpInside)
+        
+      
+        let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.handleConfirmButton))
+
+        view.addGestureRecognizer(gesture)
         
         return view
+    }
+    
+    func getUsersInfos(){
+        let userinfosservice = UserInfosService(query: UserInfosQuery(email:                     UserDefaults.standard.string(forKey: "email") ?? ""))
+        
+        userinfosservice.query { result in
+            switch result {
+                case .success(let result):
+                User.shared.infos?.mail = result.email
+                User.shared.infos?.firstName = result.firstName
+                User.shared.infos?.lastName = result.lastName
+                User.shared.infos?.address.street = result.address
+                User.shared.infos?.roles = result.roles
+                User.shared.infos?.phoneNumber = result.phoneNumber
+                
+                case .failure(let error):
+                    print(error)
+                    //self.toggleError(withMessage: error.localizedDescription)
+                }
+        }
     }
                                                                    
     

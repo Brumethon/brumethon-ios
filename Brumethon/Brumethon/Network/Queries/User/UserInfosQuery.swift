@@ -7,13 +7,29 @@
 
 import Alamofire
 
+struct UserInfosResponse: Decodable {
+    var email: String
+    var firstName: String
+    var lastName: String
+    var address: String
+    var roles: [String]
+    var phoneNumber: String
+}
+
+
 final class UserInfosQuery: Query {
     struct QueryParameters: Encodable {
-        
     }
     
-    var endpoint: String = "url here"
+    var parameters: QueryParameters?
+    var email: String
+    var endpoint: String
     var headers: HTTPHeaders? {
-        [HTTPHeader(name: "authorization", value: User.shared.token ?? "")]
+        [HTTPHeader(name: "uuid", value: User.shared.token ?? "")]
+    }
+    
+    init(email : String){
+        self.email = email
+        self.endpoint = "/users/\(email)"
     }
 }

@@ -80,8 +80,10 @@ class SignInViewController: UIViewController {
         
         signInService.query { result in
             switch result {
-                        case .success(let token):
-                            User.shared.token = token.token
+                        case .success(let result):
+                        print(result)
+                        User.shared.token = result.token
+                    UserDefaults.standard.setValue(email, forKey: "email")
                             self.navigationController?.pushViewController(MainViewController(), animated: true)
                         case .failure(let error):
                             print(error)

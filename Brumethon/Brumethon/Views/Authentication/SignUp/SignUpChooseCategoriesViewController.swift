@@ -30,7 +30,8 @@ class SignUpChooseCategoriesViewController: UIViewController, TagListViewDelegat
             }
             i+=1
         }*/
-        self.setCategories(category: selectedCategories)
+        //self.setCategories(category: selectedCategories)
+        self.navigationController?.pushViewController(MainViewController(), animated: true)
     }
     
     override func viewDidLoad() {

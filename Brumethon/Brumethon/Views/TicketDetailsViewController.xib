@@ -6,12 +6,15 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TicketDetailsViewController" customModule="Brumethon" customModuleProvider="target">
             <connections>
+                <outlet property="acceptButton" destination="N6M-ZV-ON5" id="Xke-nw-VJK"/>
                 <outlet property="closeTicketButton" destination="bQA-Wl-lIC" id="yOp-Ht-veT"/>
+                <outlet property="declineButton" destination="6ob-Xl-UNi" id="rvf-1h-LfO"/>
                 <outlet property="descriptionTextView" destination="1yr-UT-ehg" id="zJp-4v-rR7"/>
                 <outlet property="numberStreetLabel" destination="aJa-bp-kPd" id="n6m-uO-tvU"/>
                 <outlet property="sendMessageButton" destination="Ocp-Ms-Jf2" id="8rJ-dX-TGe"/>
@@ -77,30 +80,70 @@
                         <action selector="handleCloseTicket:" destination="-1" eventType="touchUpInside" id="HSg-N1-OeO"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6M-ZV-ON5">
+                    <rect key="frame" x="50" y="642" width="314" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Jap-g8-s92"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Accepter">
+                        <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="handleAccept:" destination="-1" eventType="touchUpInside" id="xXc-sD-OLX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ob-Xl-UNi">
+                    <rect key="frame" x="50" y="712" width="314" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CMw-ie-xPn"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Refuser">
+                        <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="handleDecline:" destination="-1" eventType="touchUpInside" id="xnM-KS-yDC"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="VDh-as-xan"/>
             <color key="backgroundColor" name="Secondary color"/>
             <constraints>
                 <constraint firstItem="Ocp-Ms-Jf2" firstAttribute="centerX" secondItem="uER-Sg-Ihr" secondAttribute="centerX" id="3IL-db-NmW"/>
                 <constraint firstItem="Ocp-Ms-Jf2" firstAttribute="top" secondItem="bQA-Wl-lIC" secondAttribute="bottom" constant="20" id="5Wc-Sc-QYR"/>
+                <constraint firstItem="VDh-as-xan" firstAttribute="bottom" secondItem="6ob-Xl-UNi" secondAttribute="bottom" constant="100" id="7uH-hD-1Yh"/>
                 <constraint firstItem="1yr-UT-ehg" firstAttribute="top" secondItem="qBa-iI-zyf" secondAttribute="top" constant="30" id="BhR-Ns-I4Q"/>
                 <constraint firstItem="aJa-bp-kPd" firstAttribute="centerX" secondItem="uER-Sg-Ihr" secondAttribute="centerX" id="Cue-bH-bia"/>
+                <constraint firstItem="6ob-Xl-UNi" firstAttribute="leading" secondItem="VDh-as-xan" secondAttribute="leading" constant="50" id="EF1-tT-f3p"/>
                 <constraint firstItem="aJa-bp-kPd" firstAttribute="centerX" secondItem="uER-Sg-Ihr" secondAttribute="centerX" id="EHx-Al-zSx"/>
+                <constraint firstItem="6ob-Xl-UNi" firstAttribute="top" secondItem="bQA-Wl-lIC" secondAttribute="bottom" constant="20" id="H9B-Of-6Gl"/>
+                <constraint firstItem="Ocp-Ms-Jf2" firstAttribute="top" secondItem="N6M-ZV-ON5" secondAttribute="bottom" constant="20" id="HaX-0I-s1I"/>
                 <constraint firstItem="qBa-iI-zyf" firstAttribute="top" secondItem="aJa-bp-kPd" secondAttribute="bottom" constant="5" id="JtG-Mm-hd9"/>
                 <constraint firstItem="8Pt-ur-Yrj" firstAttribute="top" secondItem="VDh-as-xan" secondAttribute="top" constant="60" id="Pzb-iA-Fb6"/>
                 <constraint firstItem="aJa-bp-kPd" firstAttribute="top" secondItem="8Pt-ur-Yrj" secondAttribute="bottom" constant="5" id="Quq-Th-mcC"/>
                 <constraint firstItem="VDh-as-xan" firstAttribute="trailing" secondItem="bQA-Wl-lIC" secondAttribute="trailing" constant="50" id="R2D-wO-Mqz"/>
                 <constraint firstItem="VDh-as-xan" firstAttribute="bottom" secondItem="Ocp-Ms-Jf2" secondAttribute="bottom" constant="100" id="Xx7-rG-L8N"/>
+                <constraint firstItem="VDh-as-xan" firstAttribute="trailing" secondItem="N6M-ZV-ON5" secondAttribute="trailing" constant="50" id="aj1-5A-bmx"/>
+                <constraint firstItem="VDh-as-xan" firstAttribute="trailing" secondItem="6ob-Xl-UNi" secondAttribute="trailing" constant="50" id="b2v-Ka-Iot"/>
                 <constraint firstItem="8Pt-ur-Yrj" firstAttribute="centerX" secondItem="uER-Sg-Ihr" secondAttribute="centerX" id="bN0-eA-ILz"/>
                 <constraint firstItem="VDh-as-xan" firstAttribute="trailing" secondItem="1yr-UT-ehg" secondAttribute="trailing" constant="30" id="bbd-Eh-rTY"/>
                 <constraint firstItem="Ocp-Ms-Jf2" firstAttribute="leading" secondItem="VDh-as-xan" secondAttribute="leading" constant="50" id="cYp-2E-vVh"/>
                 <constraint firstItem="1yr-UT-ehg" firstAttribute="leading" secondItem="VDh-as-xan" secondAttribute="leading" constant="30" id="nLX-Bf-QcO"/>
                 <constraint firstItem="VDh-as-xan" firstAttribute="trailing" secondItem="Ocp-Ms-Jf2" secondAttribute="trailing" constant="50" id="sGQ-dD-eYF"/>
+                <constraint firstItem="N6M-ZV-ON5" firstAttribute="leading" secondItem="VDh-as-xan" secondAttribute="leading" constant="50" id="uVm-bT-oWM"/>
                 <constraint firstItem="qBa-iI-zyf" firstAttribute="centerX" secondItem="uER-Sg-Ihr" secondAttribute="centerX" id="vuo-x1-j6d"/>
                 <constraint firstItem="bQA-Wl-lIC" firstAttribute="leading" secondItem="VDh-as-xan" secondAttribute="leading" constant="50" id="wzm-0N-zMd"/>
             </constraints>
             <point key="canvasLocation" x="139" y="151"/>
         </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="B2r-Du-FA6">
+            <rect key="frame" x="0.0" y="0.0" width="67" height="31"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <state key="normal" title="Button"/>
+            <buttonConfiguration key="configuration" style="filled" title="Button"/>
+            <point key="canvasLocation" x="-309" y="108"/>
+        </button>
     </objects>
     <resources>
         <namedColor name="Primary Color">
@@ -109,6 +152,9 @@
         <namedColor name="Secondary color">
             <color red="0.79199999570846558" green="0.94099998474121094" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

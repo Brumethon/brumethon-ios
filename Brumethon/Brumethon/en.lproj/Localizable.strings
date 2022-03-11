@@ -61,3 +61,6 @@
 "action.delete"      = "Delete";
 "action.close"      = "Close";
 "action.close_ticket"  = "Close ticket";
+"action.accept"  = "Accept";
+"action.decline"  = "Decline";
+"action.send_message"  = "Send message";

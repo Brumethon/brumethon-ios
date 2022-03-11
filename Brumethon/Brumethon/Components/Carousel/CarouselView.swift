@@ -13,8 +13,6 @@ class CarouselView: UIView {
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var messageTextPicker: UITextView!
-    @IBOutlet weak var confirmButton: UIButton!
-    @IBOutlet weak var refuseButton: UIButton!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -45,13 +43,6 @@ class CarouselView: UIView {
         //Message
         self.messageTextPicker.backgroundColor = UIColor(white: 1, alpha: 0)
         
-        //Buttons
-        self.confirmButton.setTitle("", for: .normal)
-        self.confirmButton.setImage(UIImage(systemName: "checkmark.circle"), for: .normal)
-        
-        
-        self.refuseButton.setTitle("", for: .normal)
-        self.refuseButton.setImage(UIImage(systemName: "xmark.circle"), for: .normal)
     }
 
 }
