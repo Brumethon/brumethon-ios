@@ -51,7 +51,7 @@ class SignUpAddressViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.isHidden = true
+        //self.navigationController?.navigationBar.isHidden = true
         
         self.addressNumberTextField.delegate = self
         self.streetNameTextField.delegate = self

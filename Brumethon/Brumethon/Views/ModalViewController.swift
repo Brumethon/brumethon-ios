@@ -7,23 +7,36 @@
 
 import UIKit
 import DropDown
+import TagListView
+import CoreLocation
 
-class ModalViewController: UIViewController {
+class ModalViewController: UIViewController, TagListViewDelegate {
+    private let primaryColor = UIColor(named: "Primary Color")
+    private var lagitudeToSend: Double? = User.shared.infos?.address.lagitude ?? 0
+    private var longitudeToSend: Double? = User.shared.infos?.address.longitude ?? 0
+    private var selectedCategory: String?
 
-    @IBOutlet weak var categoriesButton: UIButton!
+    var userLocation: CLLocation?
+    
+    @IBOutlet weak var categoriesListView: TagListView!
     @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var positionSegmentControl: UISegmentedControl!
     @IBOutlet weak var askHelpButton: UIButton!
-        
-    //Init dropdown
-    let categoriesDropDown = DropDown()
     
-    lazy var dropDowns: [DropDown] = {
-            return [
-                self.categoriesDropDown
-            ]
-        }()
-    
+    @IBAction func segmentedControlChanged(_ sender: Any) {
+        switch positionSegmentControl.selectedSegmentIndex
+          {
+          case 0:
+            lagitudeToSend = User.shared.infos?.address.lagitude
+            longitudeToSend = User.shared.infos?.address.longitude
+          case 1:
+            lagitudeToSend = userLocation?.coordinate.latitude
+            longitudeToSend = userLocation?.coordinate.longitude
+          default:
+              break
+          }
+        print(selectedCategory)
+    }
     let positionsOptions : [String] = [
         languageUtil.getTranslatedText(translationString: "home_address"),
         languageUtil.getTranslatedText(translationString: "modal.current_pos")
@@ -31,13 +44,6 @@ class ModalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Stylish that shitty button (a lil bit)
-        self.categoriesButton.layer.cornerRadius = 10
-        self.categoriesButton.setTitle(languageUtil.getTranslatedText(translationString: "categories"), for: .normal)
-        
-        customizeDropDown()
-        setupCategoriesDropDown()
         
         //Stylish that text view
         self.descriptionTextView.layer.cornerRadius = 10
@@ -50,55 +56,44 @@ class ModalViewController: UIViewController {
         for index in 0...positionsOptions.count - 1 {
             self.positionSegmentControl.setTitle(positionsOptions[index], forSegmentAt: index)
         }
+        
+        self.categoriesListView.delegate = self
+        
+        categoriesListView.addTags(["Toto", "Tata", "Tutu", "Toto", "Tata", "Tutu", "Toto", "Tata", "Tutu", "Toto", "Tata", "Tutu" ])
+        categoriesListView.textFont = UIFont.systemFont(ofSize: 16)
+
+        for tagView in categoriesListView.tagViews {
+            tagView.cornerRadius = 20
+            tagView.paddingX = 15
+            tagView.paddingY = 10
+            
+            tagView.tagBackgroundColor = .clear
+            tagView.borderWidth = 0.5
+            tagView.borderColor = primaryColor!
+            tagView.textColor = primaryColor!
+        }
        
     }
-    
-    
-    //-------------------- CONCERNING DROP DOWN --------------------//
-    
-    @IBAction func handleCategories(_ sender: Any) {
-        categoriesDropDown.show()
-    }
-   
-    func setupCategoriesDropDown(){
-        categoriesDropDown.anchorView = categoriesButton
-        
-        //Display the list under the button
-        categoriesDropDown.bottomOffset = CGPoint(x: 0, y: categoriesButton.bounds.height + 5)
-        
-        categoriesDropDown.dataSource = [
-            "Carosserie",
-            "Mécanique",
-            "Questions"
-        ]
-        
-        categoriesDropDown.selectionAction = { [weak self] (index, item) in
-                    self?.categoriesButton.setTitle(item, for: .normal)
+
+        func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
+            for tag in sender.tagViews {
+                if tag.tagBackgroundColor == primaryColor {
+                    tag.tagBackgroundColor = .clear
+                    tag.borderWidth = 0.5
+                    tag.borderColor = primaryColor
+                    tag.textColor = primaryColor!
                 }
-        
-        categoriesDropDown.multiSelectionAction = { [weak self] (indices, items) in
-            if items.isEmpty {
-                self?.categoriesButton.setTitle(languageUtil.getTranslatedText(translationString: "categories"), for: .normal)
             }
-        }
-    }
+            
+            tagView.tagBackgroundColor = primaryColor!
+            tagView.borderColor = .clear
+            tagView.textColor = .white
+            
+            selectedCategory = tagView.currentTitle
     
-    func customizeDropDown() {
-        
-            let appearance = DropDown.appearance()
-            
-            appearance.cellHeight = 60
-            appearance.backgroundColor = UIColor(white: 1, alpha: 1)
-            appearance.selectionBackgroundColor = UIColor(red: 0.6494, green: 0.8155, blue: 1.0, alpha: 0.2)
-            appearance.separatorColor = UIColor(white: 0.7, alpha: 0.8)
-            appearance.cornerRadius = 10
-            appearance.shadowColor = UIColor(white: 0.6, alpha: 1)
-            appearance.shadowOpacity = 0.9
-            appearance.shadowRadius = 25
-            appearance.animationduration = 0.25
-            appearance.textColor = .darkGray
-            
-    }
+        }
+    
+
     
     //-------------------- CONCERNING BUTTON --------------------//
     

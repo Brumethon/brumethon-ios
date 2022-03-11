@@ -18,7 +18,7 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         categoriesListView.addTags(["Toto", "Tata", "Tutu"])
-        categoriesListView.textFont = UIFont.systemFont(ofSize: 22)
+        categoriesListView.textFont = UIFont.systemFont(ofSize: 18)
 
         for tagView in categoriesListView.tagViews {
             tagView.cornerRadius = 20
