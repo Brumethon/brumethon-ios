@@ -17,7 +17,7 @@ protocol Query {
 }
 
 extension Query {
-    var url: String { "url://" + endpoint }
+    var url: String { "https://brumethon-api.herokuapp.com" + endpoint }
     var method: HTTPMethod { .get }
     var headers: HTTPHeaders? { nil }
     var parameters: QueryParameters? { nil }

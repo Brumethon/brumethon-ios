@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		56C560E6953A4514DB799D72 /* Pods_Brumethon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE5245E9F1FD45695EF4A80 /* Pods_Brumethon.framework */; };
+		571C95A927DAD2450025E3F2 /* CarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571C95A827DAD2450025E3F2 /* CarouselView.xib */; };
+		571C95AB27DAD75E0025E3F2 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AA27DAD75E0025E3F2 /* CarouselView.swift */; };
 		5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748350D27D93A08001CE3A8 /* AppDelegate.swift */; };
 		5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5748351627D93A0A001CE3A8 /* Assets.xcassets */; };
 		5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748351827D93A0A001CE3A8 /* LaunchScreen.storyboard */; };
@@ -37,6 +39,11 @@
 		BE8483CA27DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483C827DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib */; };
 		BE8483CF27DAB8AB0002C0BB /* TicketDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483CD27DAB8AB0002C0BB /* TicketDetailsViewController.swift */; };
 		BE8483D027DAB8AB0002C0BB /* TicketDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE8483CE27DAB8AB0002C0BB /* TicketDetailsViewController.xib */; };
+		BE8483D727DAE5830002C0BB /* SignUpQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483D627DAE5830002C0BB /* SignUpQuery.swift */; };
+		BE8483DA27DAE84F0002C0BB /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483D927DAE84F0002C0BB /* SignUpService.swift */; };
+		BE8483DC27DAEF8E0002C0BB /* CategoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483DB27DAEF8E0002C0BB /* CategoriesService.swift */; };
+		BE8483DE27DAEFBE0002C0BB /* GetCategoriesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483DD27DAEFBE0002C0BB /* GetCategoriesQuery.swift */; };
+		BE8483E027DAF0240002C0BB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8483DF27DAF0240002C0BB /* Category.swift */; };
 		BE9A8EB727D9F0D70007E32A /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB627D9F0D70007E32A /* Documentation.docc */; };
 		BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EB927D9F3D90007E32A /* Service.swift */; };
 		BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8EBB27D9F4080007E32A /* UserInfos.swift */; };
@@ -72,6 +79,8 @@
 
 /* Begin PBXFileReference section */
 		1F143D5E79CEFC158C154CE2 /* Pods-Brumethon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brumethon.debug.xcconfig"; path = "Target Support Files/Pods-Brumethon/Pods-Brumethon.debug.xcconfig"; sourceTree = "<group>"; };
+		571C95A827DAD2450025E3F2 /* CarouselView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselView.xib; sourceTree = "<group>"; };
+		571C95AA27DAD75E0025E3F2 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		5748350A27D93A08001CE3A8 /* Brumethon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brumethon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5748350D27D93A08001CE3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5748351627D93A0A001CE3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +120,11 @@
 		BE8483C827DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpChooseCategoriesViewController.xib; sourceTree = "<group>"; };
 		BE8483CD27DAB8AB0002C0BB /* TicketDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailsViewController.swift; sourceTree = "<group>"; };
 		BE8483CE27DAB8AB0002C0BB /* TicketDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketDetailsViewController.xib; sourceTree = "<group>"; };
+		BE8483D627DAE5830002C0BB /* SignUpQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpQuery.swift; sourceTree = "<group>"; };
+		BE8483D927DAE84F0002C0BB /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
+		BE8483DB27DAEF8E0002C0BB /* CategoriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesService.swift; sourceTree = "<group>"; };
+		BE8483DD27DAEFBE0002C0BB /* GetCategoriesQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCategoriesQuery.swift; sourceTree = "<group>"; };
+		BE8483DF27DAF0240002C0BB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		BE9A8EB627D9F0D70007E32A /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		BE9A8EB927D9F3D90007E32A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BE9A8EBB27D9F4080007E32A /* UserInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfos.swift; sourceTree = "<group>"; };
@@ -170,6 +184,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5726F1C327DA763200AED016 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5726F1C427DA763A00AED016 /* Carousel */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5726F1C427DA763A00AED016 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				571C95A827DAD2450025E3F2 /* CarouselView.xib */,
+				571C95AA27DAD75E0025E3F2 /* CarouselView.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
 		5748350127D93A08001CE3A8 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +227,7 @@
 		5748350C27D93A08001CE3A8 /* Brumethon */ = {
 			isa = PBXGroup;
 			children = (
+				5726F1C327DA763200AED016 /* Components */,
 				BE9A8EC027D9FC410007E32A /* Network */,
 				5748355E27D97B23001CE3A8 /* Views */,
 				5748354E27D943C3001CE3A8 /* Utils */,
@@ -301,6 +333,14 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
+		BE8483D827DAE8400002C0BB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BE8483D927DAE84F0002C0BB /* SignUpService.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		BE9A8EB827D9F28F0007E32A /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +349,7 @@
 				BE9A8ECA27D9FF370007E32A /* Address.swift */,
 				BE9A8ECC27DA00130007E32A /* Problem.swift */,
 				BE9A8ECE27DA00BC0007E32A /* Scooter.swift */,
+				BE8483DF27DAF0240002C0BB /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -317,8 +358,8 @@
 			isa = PBXGroup;
 			children = (
 				BE9A8EC827D9FE3A0007E32A /* NetworkLogger.swift */,
-				BE9A8EC127D9FC4A0007E32A /* Services */,
 				BE9A8EB827D9F28F0007E32A /* Models */,
+				BE9A8EC127D9FC4A0007E32A /* Services */,
 				BE9A8EC527D9FCEE0007E32A /* Queries */,
 				BE9A8EC227D9FCB50007E32A /* Errors */,
 			);
@@ -329,6 +370,8 @@
 			isa = PBXGroup;
 			children = (
 				BE9A8EB927D9F3D90007E32A /* Service.swift */,
+				BE8483D827DAE8400002C0BB /* Authentication */,
+				BE8483DB27DAEF8E0002C0BB /* CategoriesService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -345,6 +388,7 @@
 			isa = PBXGroup;
 			children = (
 				BE9A8EC627D9FCFB0007E32A /* Query.swift */,
+				BE8483DD27DAEFBE0002C0BB /* GetCategoriesQuery.swift */,
 				BE9A8ED427DA03100007E32A /* Authentication */,
 				BE9A8EDA27DA04030007E32A /* User */,
 				BE9A8ED727DA03970007E32A /* Problem */,
@@ -356,6 +400,7 @@
 			isa = PBXGroup;
 			children = (
 				BE9A8ED527DA031B0007E32A /* SignInQuery.swift */,
+				BE8483D627DAE5830002C0BB /* SignUpQuery.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -496,6 +541,7 @@
 				BE8483CA27DA8C590002C0BB /* SignUpChooseCategoriesViewController.xib in Resources */,
 				5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */,
 				5748354927D9414E001CE3A8 /* Localizable.strings in Resources */,
+				571C95A927DAD2450025E3F2 /* CarouselView.xib in Resources */,
 				5748356B27D9EB5F001CE3A8 /* ModalViewController.xib in Resources */,
 				5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */,
 				BE8483C627DA7D020002C0BB /* SignUpLoginInfosViewController.xib in Resources */,
@@ -634,7 +680,12 @@
 				BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */,
 				5748356A27D9EB5F001CE3A8 /* ModalViewController.swift in Sources */,
 				5748356527D98571001CE3A8 /* MainViewController.swift in Sources */,
+				BE8483D727DAE5830002C0BB /* SignUpQuery.swift in Sources */,
+				BE8483DC27DAEF8E0002C0BB /* CategoriesService.swift in Sources */,
+				BE8483DA27DAE84F0002C0BB /* SignUpService.swift in Sources */,
+				BE8483E027DAF0240002C0BB /* Category.swift in Sources */,
 				BE9A8EBA27D9F3D90007E32A /* Service.swift in Sources */,
+				BE8483DE27DAEFBE0002C0BB /* GetCategoriesQuery.swift in Sources */,
 				5748356127D9808F001CE3A8 /* ProfileViewController.swift in Sources */,
 				BE9A8EDE27DA047D0007E32A /* BecomeReferentQuery.swift in Sources */,
 				5748355B27D96981001CE3A8 /* languageUtil.swift in Sources */,
@@ -655,6 +706,7 @@
 				BE9A8EBC27D9F4080007E32A /* UserInfos.swift in Sources */,
 				5772BF6C27DA587A00084D94 /* SignUpAddressViewController.swift in Sources */,
 				BE9A8ED327DA01A70007E32A /* User.swift in Sources */,
+				571C95AB27DAD75E0025E3F2 /* CarouselView.swift in Sources */,
 				BE9A8EDC27DA04160007E32A /* UserInfosQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

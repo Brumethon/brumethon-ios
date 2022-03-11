@@ -1,24 +1,24 @@
 PODS:
   - Alamofire (5.5.0)
-  - DropDown (2.3.13)
+  - iCarousel (1.8.3)
   - TagListView (1.4.1)
 
 DEPENDENCIES:
-  - Alamofire
-  - DropDown
+  - Alamofire (~> 5.5)
+  - iCarousel
   - TagListView
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - DropDown
+    - iCarousel
     - TagListView
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
-  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
 
-PODFILE CHECKSUM: 47cc709fb35f82b16861dede5268af08ddb8c095
+PODFILE CHECKSUM: b479420b16bfd168515bb56b571e0b7cbd361d24
 
 COCOAPODS: 1.11.2

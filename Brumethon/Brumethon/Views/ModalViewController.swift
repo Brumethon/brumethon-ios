@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DropDown
 import TagListView
 import CoreLocation
 
@@ -22,7 +21,7 @@ class ModalViewController: UIViewController, TagListViewDelegate {
     @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var positionSegmentControl: UISegmentedControl!
     @IBOutlet weak var askHelpButton: UIButton!
-    
+        
     @IBAction func segmentedControlChanged(_ sender: Any) {
         switch positionSegmentControl.selectedSegmentIndex
           {
