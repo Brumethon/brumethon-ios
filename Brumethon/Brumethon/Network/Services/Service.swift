@@ -32,10 +32,10 @@ class Service<Q: Query, CleanedOutput>: ObservableObject where CleanedOutput: De
                    parameters: query.parameters,
                    encoder: JSONParameterEncoder(encoder: encoder),
                    headers: query.headers)
-            .validate()
-            .responseData { response in
+            .validate(statusCode : 200..<300)
+            .responseData(emptyResponseCodes: [200, 204, 205]) { response in
                 self.isLoading.toggle()
-
+                
                 switch response.result {
                 case .success(let data):
 
@@ -48,7 +48,7 @@ class Service<Q: Query, CleanedOutput>: ObservableObject where CleanedOutput: De
                     
                     return completion(.success(cleanedData))
                 case .failure(let error):
-                    print("toto \(error)")
+                    
                     NetworkLogger.log(url: self.query.url, method: self.query.method, status: .failure(ServiceError(fromCode: error.responseCode)))
                     
                     return completion(.failure(ServiceError(fromCode: error.responseCode)))

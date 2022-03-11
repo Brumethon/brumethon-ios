@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Scooter: Decodable, Equatable {
+struct Scooter: Encodable,Decodable, Equatable {
     let id: Int
-    let model: String
-    let dateOfPurchase: String
+    let scooterModelID: Int
+    let serialNumber: String
 }

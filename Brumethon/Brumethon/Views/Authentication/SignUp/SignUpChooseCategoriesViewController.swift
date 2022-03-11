@@ -7,12 +7,13 @@
 
 import UIKit
 import TagListView
+import Alamofire
 
 class SignUpChooseCategoriesViewController: UIViewController, TagListViewDelegate {
     
     let primaryColor = UIColor(named: "Primary Color")
     var selectedCategories: [Int] = []
-    var email : String!
+    var email : String! = "ntran7@myges.fr"
         
     @IBOutlet weak var chooseCategoriesTitle: UILabel!
     @IBOutlet weak var categoriesListView: TagListView!
@@ -92,6 +93,7 @@ class SignUpChooseCategoriesViewController: UIViewController, TagListViewDelegat
                 self.setTagStyle()
             case .failure(let error):
                     print(error.localizedDescription)
+                    
             }
         }
     }
@@ -109,6 +111,8 @@ class SignUpChooseCategoriesViewController: UIViewController, TagListViewDelegat
                             //self.toggleError(withMessage: error.localizedDescription)
                         }
         }
+        
+    
     }
 
 
