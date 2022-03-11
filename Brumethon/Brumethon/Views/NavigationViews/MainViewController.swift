@@ -65,16 +65,14 @@ class MainViewController: UIViewController, iCarouselDataSource {
         return 10
     }
     
+    @objc func handleConfirmButton(index: Int) {
+        print(index)
+    }
+    
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
         
         let view = CarouselView(frame: CGRect(x: 0, y: 0, width: self.containerView.frame.size.width, height: self.containerView.frame.size.height))
-        
-        
-        
-        
-        
-        
-        
+        view.confirmButton.addTarget(self, action: #selector(handleConfirmButton(index:)), for: .touchUpInside)
         
         return view
     }

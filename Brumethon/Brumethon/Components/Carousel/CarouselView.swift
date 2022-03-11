@@ -35,8 +35,10 @@ class CarouselView: UIView {
         //Stylish the view
         layer.cornerRadius = 10
         layer.borderColor  = UIColor(named: "Primary Color")?.cgColor
-        layer.borderWidth = 1
-        
+        layer.shadowOffset = CGSize(width: 10,
+                                          height: 10)
+        layer.shadowRadius = 5
+        layer.shadowOpacity = 0.3
         //Content view
         contentView.layer.cornerRadius = 10
         
