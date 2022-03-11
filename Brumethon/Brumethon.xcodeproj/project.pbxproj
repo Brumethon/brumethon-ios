@@ -13,6 +13,8 @@
 		571C95AD27DB3E320025E3F2 /* SignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AC27DB3E320025E3F2 /* SignInService.swift */; };
 		571C95B027DB43DE0025E3F2 /* SetCategoriesQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95AF27DB43DE0025E3F2 /* SetCategoriesQuery.swift */; };
 		571C95B227DB46360025E3F2 /* setCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95B127DB46360025E3F2 /* setCategoryService.swift */; };
+		571C95B627DB651B0025E3F2 /* ProblemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95B527DB651B0025E3F2 /* ProblemService.swift */; };
+		571C95B827DB70080025E3F2 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C95B727DB70080025E3F2 /* Status.swift */; };
 		5748350E27D93A08001CE3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748350D27D93A08001CE3A8 /* AppDelegate.swift */; };
 		5748351727D93A0A001CE3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5748351627D93A0A001CE3A8 /* Assets.xcassets */; };
 		5748351A27D93A0A001CE3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748351827D93A0A001CE3A8 /* LaunchScreen.storyboard */; };
@@ -92,6 +94,8 @@
 		571C95AC27DB3E320025E3F2 /* SignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInService.swift; sourceTree = "<group>"; };
 		571C95AF27DB43DE0025E3F2 /* SetCategoriesQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCategoriesQuery.swift; sourceTree = "<group>"; };
 		571C95B127DB46360025E3F2 /* setCategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setCategoryService.swift; sourceTree = "<group>"; };
+		571C95B527DB651B0025E3F2 /* ProblemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemService.swift; sourceTree = "<group>"; };
+		571C95B727DB70080025E3F2 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		5748350A27D93A08001CE3A8 /* Brumethon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brumethon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5748350D27D93A08001CE3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5748351627D93A0A001CE3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -363,6 +367,7 @@
 			children = (
 				BE8483D927DAE84F0002C0BB /* SignUpService.swift */,
 				571C95AC27DB3E320025E3F2 /* SignInService.swift */,
+				571C95B527DB651B0025E3F2 /* ProblemService.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -708,6 +713,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571C95B827DB70080025E3F2 /* Status.swift in Sources */,
 				571C95AD27DB3E320025E3F2 /* SignInService.swift in Sources */,
 				BE9A8EC927D9FE3A0007E32A /* NetworkLogger.swift in Sources */,
 				BE9A8EC427D9FCCA0007E32A /* ServiceError.swift in Sources */,
@@ -731,6 +737,7 @@
 				BE9A8ECD27DA00130007E32A /* Problem.swift in Sources */,
 				BE8483C527DA7D020002C0BB /* SignUpLoginInfosViewController.swift in Sources */,
 				BE9A8ED627DA031B0007E32A /* SignInQuery.swift in Sources */,
+				571C95B627DB651B0025E3F2 /* ProblemService.swift in Sources */,
 				5772BF6627DA4EDF00084D94 /* SignUpInformationViewController.swift in Sources */,
 				BE9A8ECB27D9FF370007E32A /* Address.swift in Sources */,
 				BE8483E827DB503A0002C0BB /* UserQuery.swift in Sources */,

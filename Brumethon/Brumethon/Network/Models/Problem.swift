@@ -7,15 +7,14 @@
 
 import Foundation
 
-struct Problem: Decodable, Equatable {
+struct Problem: Encodable,Decodable, Equatable {
     let id: Int
-    let date: Date
     let scooter: Scooter
-    let category: String
-    let status: String
+    let category: Category
+    let status: Status
     let name: String
     let description: String
-    let latitude: String
-    let longitude: String
+    let latitude: Double
+    let longitude: Double
 
 }

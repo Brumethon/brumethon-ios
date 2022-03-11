@@ -9,10 +9,17 @@ import UIKit
 import CoreLocation
 import iCarousel
 
-class MainViewController: UIViewController, iCarouselDataSource {
+class MainViewController: UIViewController, iCarouselDataSource, iCarouselDelegate {
     
     
     var locationManager : CLLocationManager!
+    var problemsArray : [Problem] = []
+    {
+        didSet {
+            itemsNumber = problemsArray.count
+        }
+    }
+    var itemsNumber: Int = 0
     
     @IBOutlet weak var containerView: UIView!
     
@@ -53,8 +60,27 @@ class MainViewController: UIViewController, iCarouselDataSource {
         containerView.addSubview(myCarousel)
         
         self.myCarousel.dataSource = self
+        self.myCarousel.delegate   = self
         self.myCarousel.frame      = CGRect(x: 0, y: 0, width: containerView.frame.size.width, height: containerView.frame.size.height)
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let service = ProblemService(query : ProblemQuery())
+        service.query { result in
+            switch result {
+            case .success(let problems):
+                DispatchQueue.main.async {
+                    self.problemsArray = problems
+                    
+                    self.myCarousel.reloadData()
+                }
+                
+            case .failure(let error):
+                    print(error.localizedDescription)
+                
+            }
+        }
     }
     
     @IBAction func handleHelp(_ sender: Any) {
@@ -65,7 +91,8 @@ class MainViewController: UIViewController, iCarouselDataSource {
     }
     
     func numberOfItems(in carousel: iCarousel) -> Int {
-        return 10
+        print(self.problemsArray.count)
+        return self.problemsArray.count
     }
     
     @objc func handleConfirmButton() {
@@ -82,6 +109,14 @@ class MainViewController: UIViewController, iCarouselDataSource {
         let gesture = UITapGestureRecognizer(target: self, action:  #selector (self.handleConfirmButton))
 
         view.addGestureRecognizer(gesture)
+        
+        
+        let info = problemsArray[index]
+        view.messageTextPicker.text = info.description
+        
+        
+        //let userInfo : =
+        
         
         return view
     }
